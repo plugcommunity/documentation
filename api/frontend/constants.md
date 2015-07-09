@@ -4,7 +4,7 @@
 ### Staff Roles
 
 Variable | Value
--
+----------------
 API.ROLE.NONE | 0
 API.ROLE.DJ | 1
 API.ROLE.BOUNCER | 2
@@ -16,7 +16,7 @@ API.ROLE.HOST | 5
 ### Ban Duration
 
 Variable | Value
--
+----------------
 API.BAN.HOUR | "h"
 API.BAN.DAY | "d"
 API.BAN.PERMA | "p"
@@ -25,7 +25,7 @@ API.BAN.PERMA | "p"
 ### Mute Duration
 
 Variable | Value
--
+----------------
 API.MUTE.SHORT | "s"
 API.MUTE.MEDIUM | "m"
 API.MUTE.LONG | "l"
