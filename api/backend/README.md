@@ -7,6 +7,7 @@ Using the socket, you will be able to listen to the stream of information emitte
 It's the combination of these two systems, that power the frontend API that normal users see. By using these, you can 
 emulate the frontend environment, and build native applications/clients and bots.
 
+
 The Socket Server
 * [Server Information](/api/backend/socket.md)
 * [Events](/api/backend/events.md)
