@@ -1,16 +1,86 @@
-#Advance
-This event happens when a new song is played
+# Advance message
+
+Event passed containing the new playing song, when it starts
+
+
+### Packet Example
+
 ```js
 {
-    "a": "advance", 
+    "a": "advance", //Event Name
     "p": {
-        "c": 6327320, // current playing person
-        "d": [5388249,..., 6059187], // people in waitlist
-        "h": "143e121c-88bc-47ee-8995-ab47dd98fccd", // history ID
-        "m": {Media object}, // media object
-        "p": 7097502, // playlist ID
-        "t": "2015-04-18 00:25:14.899831" // begin playtime
+        "c": xxxxxxx, // Current DJ
+        
+        "d": [
+            xxxxxxx,
+            xxxxxxx, 
+            xxxxxxx
+        ], // Other DJs in Waitlist
+        
+        "h": "xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx", // History ID
+        
+        "m": {
+            //Media Object
+        },
+        
+        "p": xxxxxxx, // Playlist ID
+        
+        "t": "2015-04-18 00:25:14.899831" // Starting Timestamp
     }, 
-    "s": "thenightcoreclub"
+    "s": "xxxxxx" //Room Name
 }
 ```
+
+```js
+
+{ 
+    c: 3364259, //Current DJ
+    d: [ 
+        5026821,
+        3709741,
+        6202663,
+        7699695,
+        7815917,
+        4521658,
+        3756094,
+        4017378,
+        5825568,
+        3681464,
+        4797515,
+        4609304,
+        4366591,
+        4014293,
+        3842247,
+        4175640 
+    ],
+    h: '7ae868ed-798f-48df-8bff-d9c74a739d5a',
+    m: { 
+        author: 'Emancipator',
+        format: 2,
+        image: 'https://i1.sndcdn.com/artworks-000122623555-8gn05d-large.jpg',
+        cid: '213829851',
+        duration: 357,
+        title: 'Dusk To Dawn (Frameworks Remix)',
+        id: 296906716 
+    },
+    p: 7636199,
+    t: '2015-07-09 21:59:01.809993' 
+}
+```
+
+##### Media Object
+
+```js
+{ 
+    author: 'xxxxxxxx',
+    format: 1,
+    image: 'https://xxxxxxx.com/xxxxxxxxxxxxxxxx.jpg',
+    cid: 'xxxxxxxx',
+    duration: 000,
+    title: 'xxxxxxxxxxxxxxxxxx',
+    id: xxxxxxxx 
+}
+```
+
+Format is variable  by 1 for YouTube, and 2 for SoundCloud.
+
