@@ -1,47 +1,47 @@
 #Events
 These are all the events that plug will sent to the client via teh websocket.
-* ack
-* advance
-* ban
-* banIP
-* chat
-* chatDelete
-* djListCycle
-* djListLocked
-* djListUpdate
-* earn
-* sub
-* cash
-* gift
-* floodChat
-* floodAPI
-* friendRequest
-* friendAccept
-* gifted
-* grab
-* killSession
-* modBan
-* modAddDJ
-* modRemoveDJ
-* modMoveDJ
-* modMute
-* modSkip
-* modStaff
-* nameChanged
-* nameChangedRoom
-* notify
-* playlistCycle
-* plugMaintenance
-* plugMaintenanceAlert
-* plugMessage
-* plugUpdate
-* rateLimit
-* roomNameUpdate
-* roomDescriptionUpdate
-* roomWelcomeUpdate
-* roomMinChatLevelUpdate
-* skip
-* userJoin
-* userLeave
-* userUpdate
-* vote
+* ack 					[ack]              				(/api/backend/events/ack.md)
+* advance 				[advance]              			(/api/backend/events/advance.md)
+* ban 					[ban]              				(/api/backend/events/ban.md)
+* banIP 				[banIP]              			(/api/backend/events/banIP.md)
+* chat 					[chat]              			(/api/backend/events/chat.md)
+* chatDelete 			[chatDelete]            		(/api/backend/events/chatDelete.md)
+* djListCycle			[djListCycle]           		(/api/backend/events/djListCycle.md)
+* djListLocked			[djListLocked]          		(/api/backend/events/djListLocked.md)
+* djListUpdate			[djListUpdate]          		(/api/backend/events/djListUpdate.md)
+* earn 					[earn]              			(/api/backend/events/earn.md)
+* sub 					[sub]              				(/api/backend/events/sub.md)
+* cash 					[cash]              			(/api/backend/events/cash.md)
+* gift 					[gift]              			(/api/backend/events/gift.md)
+* floodChat				[floodChat]             		(/api/backend/events/floodChat.md)
+* floodAPI				[floodAPI]              		(/api/backend/events/floodAPI.md)
+* friendRequest			[friendRequest]         		(/api/backend/events/friendRequest.md)
+* friendAccept			[friendAccept]          		(/api/backend/events/friendAccept.md)
+* gifted				[gifted]              			(/api/backend/events/gifted.md)
+* grab 					[grab]              			(/api/backend/events/grab.md)
+* killSession 			[killSession]					(/api/backend/events/killSession.md)
+* modBan 				[modBan]              			(/api/backend/events/modBan.md)
+* modAddDJ 				[modAddDJ]              		(/api/backend/events/modAddDJ.md)
+* modRemoveDJ 			[modRemoveDJ]           		(/api/backend/events/modRemoveDJ.md)
+* modMoveDJ 			[modMoveDJ ]            		(/api/backend/events/modMoveDJ.md)
+* modMute 				[modMute]              			(/api/backend/events/modMute.md)
+* modSkip 				[modSkip]              			(/api/backend/events/modSkip.md)
+* modStaff 				[modStaff]              		(/api/backend/events/modStaff.md)
+* nameChanged 			[nameChanged ]          		(/api/backend/events/nameChanged.md)
+* nameChangedRoom		[nameChangedRoom]       		(/api/backend/events/nameChangedRoom.md)
+* notify				[notify]              			(/api/backend/events/notify.md)
+* playlistCycle			[playlistCycle]         		(/api/backend/events/playlistCycle.md)
+* plugMaintenance 		[plugMaintenance ]      		(/api/backend/events/plugMaintenance.md)
+* plugMaintenanceAlert	[plugMaintenanceAlert]  		(/api/backend/events/plugMaintenanceAlert.md)
+* plugMessage			[plugMessage]           		(/api/backend/events/plugMessage.md)
+* plugUpdate			[plugUpdate]            		(/api/backend/events/plugUpdate.md)
+* rateLimit				[rateLimit]             		(/api/backend/events/rateLimit.md)
+* roomNameUpdate		[roomNameUpdate]        		(/api/backend/events/roomNameUpdate.md)
+* roomDescriptionUpdate	[roomDescriptionUpdate] 		(/api/backend/events/roomDescriptionUpdate.md)
+* roomWelcomeUpdate		[roomWelcomeUpdate]     		(/api/backend/events/roomWelcomeUpdate.md)
+* roomMinChatLevelUpdate[roomMinChatLevelUpdate]		(/api/backend/events/roomMinChatLevelUpdate.md)
+* skip 					[skip ]              			(/api/backend/events/skip.md)
+* userJoin				[userJoin]              		(/api/backend/events/userJoin.md)
+* userLeave				[userLeave]             		(/api/backend/events/userLeave.md)
+* userUpdate			[userUpdate]            		(/api/backend/events/userUpdate.md)
+* vote					[vote]              			(/api/backend/events/vote.md)
