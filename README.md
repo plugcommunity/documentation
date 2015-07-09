@@ -1,6 +1,6 @@
 # Unofficial Community Documentation
 
-* API Docs
+* [API Docs](/api/README.md)
     * [Frontend](/api/frontend/README.md)
     * [Backend](/api/backend/README.md)
 * [Bots](/bots/README.md)
