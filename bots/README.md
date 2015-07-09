@@ -6,7 +6,8 @@ This contains everythin you should need to make/need to create a bot on plug.dj
 * roomname (this is the code name you can find here `https://plug.dj/{roomname})`
 
 ##The way to login
-1. get the csrf of the website and keep the cookies. It stands right after `_csrf="` 
+1. get the csrf of the website and keep the cookies.  
+It stands right after `_csrf="` 
 2. post this to the endpoint `auth/login`
 ```js
     {
@@ -15,7 +16,9 @@ This contains everythin you should need to make/need to create a bot on plug.dj
         "password": {password}
     }
 ```
-3. retreve the authkey from `plug.dj/{roomname}`. It stands right after `_jm="`. Make shure you store this somewere youl need it later.
+3. retreve the authkey from `plug.dj/{roomname}`.   
+It stands right after `_jm="`.  
+Make shure you store this somewere youl need it later.
 
 ##The Websocket
 ###Websocket
