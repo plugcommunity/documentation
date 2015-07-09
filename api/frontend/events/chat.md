@@ -7,7 +7,7 @@ moderation messages. "/me" or "/em" causes an "emote" event to be fired instead 
 
 And an example of the full event package looks like:
 
-```json
+```js
 {
     cid: "xxxxxx-xxxxxxxxxxxx",
     message: "small message content",
