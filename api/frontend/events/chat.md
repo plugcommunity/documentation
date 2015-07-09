@@ -8,14 +8,15 @@ moderation messages. "/me" or "/em" causes an "emote" event to be fired instead 
 And an example of the full event package looks like:
 
 ```js
+
 {
-    cid: "xxxxxx-xxxxxxxxxxxx",
-    message: "small message content",
-    sub: 0,
-    timestamp: "10:35pm",
-    type: "message",
-    uid: xxxxxxx,
-    un: "xxxxxxxx"
+    cid: "4175640-1436477722736", //Chat ID
+    message: "I&#39;m here", //Message
+    sub: 0, //Is Subscriber Boolean
+    timestamp: "10:35pm", //Timestamp
+    type: "message", //Message Type
+    uid: 4175640, //Sender ID
+    un: "Mayniac" //Sender Username
 }
 ```
 
