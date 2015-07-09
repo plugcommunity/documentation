@@ -1,3 +1,7 @@
+# Events
+
+These are the events passed directly from the websocket
+
 * advance                - "[advance]                       (/api/backend/events/advance.md)"
 * ban                    - "[ban]                           (/api/backend/events/ban.md)"
 * chat                   - "[chat]                          (/api/backend/events/chat.md)"
