@@ -1,8 +1,11 @@
-#Events
-These are all the events that plug will sent to the client via teh websocket.
-* chat 
+# Events
+
+These are the events passed directly from the websocket
+
+
+* Chat Messages - "[chat](/api/backend/events/chat.md)"
+* DJ Advance - "[advance](/api/backend/events/advance.md)"
 * vote 
-* advance
 * userLeave 
 * userJoin 
 * djListUpdate
