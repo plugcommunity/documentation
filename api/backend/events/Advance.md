@@ -30,7 +30,7 @@ Event passed containing the new playing song, when it starts
     "s": "xxxxxx" //Room Name
 }
 ```
-
+### Real life example
 ```js
 
 { 
