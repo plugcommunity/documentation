@@ -15,11 +15,11 @@ API.ROLE.HOST | 5
 
 ### Ban Duration
 
-Variable | Value
-----------------
-API.BAN.HOUR | "h"
-API.BAN.DAY | "d"
-API.BAN.PERMA | "p"
+| Variable | Value |
+| -------- | ----- |
+| API.BAN.HOUR | "h" |
+| API.BAN.DAY | "d" |
+| API.BAN.PERMA | "p" |
 
 
 ### Mute Duration
