@@ -1,4 +1,4 @@
-#Advance message
+#Advance
 This event happens when a new song is played
 ```js
 {
@@ -13,3 +13,4 @@ This event happens when a new song is played
     }, 
     "s": "thenightcoreclub"
 }
+```
