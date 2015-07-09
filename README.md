@@ -17,12 +17,12 @@ therealhenchman@gmail.com
 Content:
 
 * Do not expose bugs, hacks or exploits! Make a ticket over at [support](https://support.plug.dj)
-* Keep it clean, clear and relevant.
+* Keep it clean, clear and relevant
 
 Style:
 
 * Please spell check everything you write
-* Lines must not be more than 120 characters in length, this makes it easier to read in a text editor.
+* Lines must not be more than 120 characters in length, this makes it easier to read in a text editor
 
 #### Contributors
 
