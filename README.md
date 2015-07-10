@@ -1,9 +1,9 @@
 # Unofficial Community Documentation
 
 * [API Docs](/api/README.md)
+* [Backend Clients](/clients/README.md)
 * [Bots](/bots/README.md)
 * [Extensions](/extensions/README.md)
-* [Backend Clients](/clients/README.md)
 
 #### The Community
 
