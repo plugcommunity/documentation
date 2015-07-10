@@ -30,6 +30,7 @@ Event passed containing the new playing song, when it starts
     "s": "xxxxxx" //Room Name
 }
 ```
+### Real Example
 
 ```js
 
@@ -68,19 +69,5 @@ Event passed containing the new playing song, when it starts
 }
 ```
 
-##### Media Object
-
-```js
-{ 
-    author: 'xxxxxxxx',
-    format: 1,
-    image: 'https://xxxxxxx.com/xxxxxxxxxxxxxxxx.jpg',
-    cid: 'xxxxxxxx',
-    duration: 000,
-    title: 'xxxxxxxxxxxxxxxxxx',
-    id: xxxxxxxx 
-}
-```
-
-Format is variable  by 1 for YouTube, and 2 for SoundCloud.
+Format is an integer, using 1 for YouTube and 2 for SoundCloud.
 
