@@ -14,6 +14,5 @@ A list of links to resources for developing bots
 
 A list of bots utilizing node.js, JavaScript, or any other API
 
-* [SekshiBot](https://github.com/welovekpop/sekshibot)
 * [BasicBot](https://github.com/Yemasthui/basicBot)
-
+* [SekshiBot](https://github.com/welovekpop/sekshibot)
