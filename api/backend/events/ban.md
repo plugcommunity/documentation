@@ -2,6 +2,7 @@
 
 Event passed containing the ban that happend
 
+
 ### Packet Example
 
 ```js
@@ -9,7 +10,9 @@ Event passed containing the ban that happend
     "a": "ban", 
     "p": {
         "t": "xxx", // the type of ban 
+
         "d": "x", // the lenght of the ban
+        
         "r": x // the reason of the ban
     }, 
     "s": "dashboard"
