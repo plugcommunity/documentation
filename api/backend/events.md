@@ -32,6 +32,7 @@ These are the events passed directly from the websocket
 * roomMinChatLevelUpdate - "[roomMinChatLevelUpdate]        (/api/backend/events/roomMinChatLevelUpdate.md)"
 * Skip                   - "[skip ]                         (/api/backend/events/skip.md)"
 * User Join              - "[userJoin]                      (/api/backend/events/userJoin.md)"
+* User Skip              - "[skip]                        	(/api/backend/events/userSkip.md)"
 * User Leave             - "[userLeave]                     (/api/backend/events/userLeave.md)"
 * User Updates           - "[userUpdate]                    (/api/backend/events/userUpdate.md)"
 * User Votes             - "[vote]                          (/api/backend/events/vote.md)"
