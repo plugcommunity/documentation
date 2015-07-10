@@ -1,6 +1,6 @@
 # Chat message
 
-Event passed containing the message that a user has senr
+Event passed containing the message that a user has sent
 
 
 ### Packet Example
@@ -13,7 +13,7 @@ Event passed containing the message that a user has senr
 
         "message":"a", // the message with a max of 120 char
 
-        "sub":0, // If the user is subscribed yes = 1 , no = 2
+        "sub":0, // If the user is subscribed (yes = 1 , no = 2)
 
         "uid":xxxxxxx, // The user ID
 
