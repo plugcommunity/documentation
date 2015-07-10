@@ -1,33 +1,20 @@
 # Ban message
 
-Event passed containing the ban that happened
+Event passed when a person is banned
 
 
-### Packet Example
-```js
-{
-    "a": "ban", 
-    "p": {
-        "t": "xxx", // the type of ban 
+### Example
 
-        "d": "x", // the lenght of the ban
-        
-        "r": x // the reason of the ban
-    }, 
-    "s": "dashboard"
-}
-```
-
-### Real life example
 ```js
 
 {
-    "a": "ban", 
+    "a": "ban",
     "p": {
-        "t": "ban", 
-        "d": "h", 
-        "r": 1
-    }, 
+        "t": "ban",
+        "d": "h",           //Length (Hour: 'h', Day: 'd', Permanent: 'p')
+        "r": 1              //Reason
+    },
+
     "s": "dashboard"
 }
 ```

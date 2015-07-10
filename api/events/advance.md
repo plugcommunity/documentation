@@ -1,6 +1,6 @@
 # Advance message
 
-Event passed containing the new playing song, when it starts
+Event emitted containing the new playing song, when it starts
 
 # Frontend
 
@@ -10,27 +10,22 @@ Event passed containing the new playing song, when it starts
 
 ```js
 {
-    "a": "advance", //Event Name
+    "a": "advance",             //Event Name
     "p": {
-        "c": xxxxxxx, // Current DJ
-        
-        "d": [
+        "c": xxxxxxx,           // Current DJ
+        "d": [                  // Other DJs in Waitlist
             xxxxxxx,
             xxxxxxx, 
             xxxxxxx
-        ], // Other DJs in Waitlist
-        
-        "h": "xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx", // History ID
-        
+        ],                                          
+        "h": "xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx",     // History ID
         "m": {
-            //Media Object
+           //Media Object
         },
-        
-        "p": xxxxxxx, // Playlist ID
-        
-        "t": "2015-04-18 00:25:14.899831" // Starting Timestamp
+        "p": xxxxxxx,                       // Playlist ID
+        "t": "2015-04-18 00:25:14.899831"   // Starting Timestamp
     }, 
-    "s": "xxxxxx" //Room Name
+    "s": "xxxxxx"                           //Room Name
 }
 ```
 ### Real Example
