@@ -5,8 +5,8 @@
 
 A list of links to resources for developing bots
 
-* [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * [CodeAcademy](http://www.codecademy.com/)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * [StackOverflow](https://stackoverflow.com/)
 
 
