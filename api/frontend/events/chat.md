@@ -10,13 +10,13 @@ And an example of the full event package looks like:
 ```js
 
 {
-    cid: "4175640-1436477722736", //Chat ID
-    message: "I&#39;m here", //Message
-    sub: 0, //Is Subscriber Boolean
-    timestamp: "10:35pm", //Timestamp
-    type: "message", //Message Type
-    uid: 4175640, //Sender ID
-    un: "Mayniac" //Sender Username
+    cid: "4175640-1436477722736", 	//Chat ID
+    message: "I&#39;m here", 		//Message
+    sub: 0, 						//Is Subscriber Boolean
+    timestamp: "10:35pm", 			//Timestamp
+    type: "message", 				//Message Type
+    uid: 4175640, 					//Sender ID
+    un: "Mayniac" 					//Sender Username
 }
 ```
 
