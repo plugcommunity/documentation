@@ -1,20 +1,20 @@
 # Ban message
 
-Event passed containing the ban that happend
+Event passed when a person is banned
 
 
 ### Packet Example
 
 ```js
 {
-    "a": "ban", 
+    "a": "ban",
     "p": {
-        "t": "xxx", // the type of ban 
+        "t": "xxx", // the type of ban
 
         "d": "x", // the lenght of the ban
-        
+
         "r": x // the reason of the ban
-    }, 
+    },
     "s": "dashboard"
 }
 ```
@@ -22,12 +22,12 @@ Event passed containing the ban that happend
 ```js
 
 {
-    "a": "ban", 
+    "a": "ban",
     "p": {
-        "t": "ban", 
-        "d": "h", 
+        "t": "ban",
+        "d": "h",
         "r": 1
-    }, 
+    },
     "s": "dashboard"
 }
 ```

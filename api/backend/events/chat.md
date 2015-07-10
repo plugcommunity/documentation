@@ -1,6 +1,6 @@
 # Chat message
 
-Event passed containing the message that a user has send
+Event passed containing the message that a user has senr
 
 
 ### Packet Example
@@ -13,7 +13,7 @@ Event passed containing the message that a user has send
 
         "message":"a", // the message with a max of 120 char
 
-        "sub":0, // If the user is subed yes = 1 , no = 2
+        "sub":0, // If the user is subscribed yes = 1 , no = 2
 
         "uid":xxxxxxx, // The user ID
 
@@ -26,7 +26,7 @@ Event passed containing the message that a user has send
 ```js
 
 {
-    "a":"chat", 
+    "a":"chat",
     "p":{
         "cid":"4769627-1429306171276",
         "message":"a",

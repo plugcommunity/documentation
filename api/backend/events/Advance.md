@@ -1,6 +1,6 @@
 # Advance message
 
-Event passed containing the new playing song, when it starts
+Event emitted containing the new playing song, when it starts
 
 
 ### Packet Example
@@ -10,23 +10,23 @@ Event passed containing the new playing song, when it starts
     "a": "advance", //Event Name
     "p": {
         "c": xxxxxxx, // Current DJ
-        
+
         "d": [
             xxxxxxx,
-            xxxxxxx, 
+            xxxxxxx,
             xxxxxxx
         ], // Other DJs in Waitlist
-        
+
         "h": "xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx", // History ID
-        
+
         "m": {
             //Media Object
         },
-        
+
         "p": xxxxxxx, // Playlist ID
-        
+
         "t": "2015-04-18 00:25:14.899831" // Starting Timestamp
-    }, 
+    },
     "s": "xxxxxx" //Room Name
 }
 ```
@@ -34,9 +34,9 @@ Event passed containing the new playing song, when it starts
 
 ```js
 
-{ 
+{
     c: 3364259, //Current DJ
-    d: [ 
+    d: [
         5026821,
         3709741,
         6202663,
@@ -52,20 +52,20 @@ Event passed containing the new playing song, when it starts
         4366591,
         4014293,
         3842247,
-        4175640 
+        4175640
     ],
     h: '7ae868ed-798f-48df-8bff-d9c74a739d5a',
-    m: { 
+    m: {
         author: 'Emancipator',
         format: 2,
         image: 'https://i1.sndcdn.com/artworks-000122623555-8gn05d-large.jpg',
         cid: '213829851',
         duration: 357,
         title: 'Dusk To Dawn (Frameworks Remix)',
-        id: 296906716 
+        id: 296906716
     },
     p: 7636199,
-    t: '2015-07-09 21:59:01.809993' 
+    t: '2015-07-09 21:59:01.809993'
 }
 ```
 
