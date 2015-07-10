@@ -6,6 +6,11 @@ the API that the UI is built using, and how the majority of extensions, and brow
 Frontend APIs are essentially a wrapper for the (Formerly accessed by ajax) API endpoints that are available via the 
 REST server, the Backend API.
 
+* [Events](/api/events/README.md)
+* [Methods](/api/methods/README.md)
+* [API Constants](/api/constants.md)
+* [Roles & Permissions](/api/roles.md)
+
 # Backend API Documentation
 
 The Backend API is the label given to the RESTful API, it's endpoints and the socket events that power plug.dj.
@@ -17,8 +22,7 @@ emulate the frontend environment, and build native applications/clients and bots
 
 
 The Socket Server
-* [Server Information](/api/backend/socket.md)
-* [Events](/api/backend/events.md)
+* [Server Information](/api/socket.md)
 
 The RESTful API
-* [API Endpoints](/api/backend/endpoints.md)
+* [API Endpoints](/api/endpoints.md)
