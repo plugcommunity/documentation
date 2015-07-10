@@ -1,6 +1,6 @@
 # ChatDelete message
 
-Event passed containing what message is deleted by an admin 
+Event passed containing information about a message that was deleted by staff
 
 
 ### Packet Example
@@ -11,18 +11,18 @@ Event passed containing what message is deleted by an admin
     'p': {
         'c': 'xxxxxxx-xxxxxxxxxxxxx', // Message ID
         'mi': xxxxxxx // ID of user who removed the message
-    }, 
+    },
     's': 'xxxx' // Room name
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'chatDelete', 
+    'a': 'chatDelete',
     'p': {
-        'c': '8009977-1436517063257', 
+        'c': '8009977-1436517063257',
         'mi': 5113863
-    }, 
+    },
     's': 'thenightcoreclub'
 }
 ```
