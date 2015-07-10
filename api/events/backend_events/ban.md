@@ -1,10 +1,9 @@
 # Ban message
 
-Event passed containing the ban that happend
+Event passed containing the ban that happened
 
 
 ### Packet Example
-
 ```js
 {
     "a": "ban", 
@@ -18,6 +17,7 @@ Event passed containing the ban that happend
     "s": "dashboard"
 }
 ```
+
 ### Real life example
 ```js
 

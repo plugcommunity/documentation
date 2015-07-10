@@ -3,12 +3,13 @@
 Chat events are fired when a user sends a chat message. This is also sent by the system for maintenance messages and
 moderation messages. "/me" or "/em" causes an "emote" event to be fired instead of a "message" event.
 
+# Frontend
+
 ### Packet Example
 
 And an example of the full event package looks like:
 
 ```js
-
 {
     cid: "4175640-1436477722736", 	//Chat ID
     message: "I&#39;m here", 		//Message
@@ -30,7 +31,7 @@ The sub value is a boolean of whether the user is a subscriber or not.
 The cid value is the chat ID, this is not a unique value as messages stack, it is comprised of the sender ID split with 
 a dash, and followed by the message number.
 
-### Code Example
+### Example Listener
 
 ```js
 
@@ -40,3 +41,24 @@ API.on(API.CHAT, function(data){
 });
 
 ```
+
+# Backend
+
+### Example
+```js
+
+{
+    "a":"chat",                             // Event name
+    "p":{                                   
+        "cid":"4769627-1429306171276",      // The chat ID
+        "message":"a",                      // Chat Message
+        "sub":0,                            // Is Subscriber Boolean (0 = no, 1 = yes) 
+        "uid":4769627,                      // Senders ID 
+        "un":"Houdhakker2"                  // Senders Username
+    },
+    "s":"thenightcoreclub"                  // Room name
+}
+```
+
+
+
