@@ -23,7 +23,7 @@ the site any harm
 * Please use the **staging** branch, this way they can be edited before they go live. Only hot fixes should hit the
 master branch.
 
-Content:
+##### Content:
 
 * Do not expose bugs, hacks or exploits! Make a ticket over at [support](https://support.plug.dj), so that they can be 
 patched or fixed.
@@ -31,13 +31,13 @@ patched or fixed.
 * If you spot wrong information, please submit an issue or a pull request correcting it. 
 * If a method or an aspect of the API becomes deprecated, do not delete, but instead mark it as deprecated.
 
-Style:
+##### Style:
 
 * Unordered lists **must** be in alphabetical order.
 * Please spell check everything you write.
 * Lines must not be more than 120 characters in length, this makes it easier to read in a text editor.
 
-#### Contributors
+### Contributors
 
 * Alex (thedark1337)
 * Henchman (hunchmun)
