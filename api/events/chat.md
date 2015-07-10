@@ -5,6 +5,8 @@ moderation messages. "/me" or "/em" causes an "emote" event to be fired instead 
 
 # Frontend
 
+Event name: API.CHAT
+
 ### Packet Example
 
 And an example of the full event package looks like:
@@ -43,6 +45,8 @@ API.on(API.CHAT, function(data){
 ```
 
 # Backend
+
+Event name: "chat"
 
 ### Example
 ```js
