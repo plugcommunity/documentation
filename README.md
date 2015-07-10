@@ -1,11 +1,11 @@
-# Unofficial Community Documentation
+# plug.dj - Unofficial Community Documentation
 
 * [API Docs](/api/README.md)
 * [Backend Clients](/clients/README.md)
 * [Bots](/bots/README.md)
 * [Extensions](/extensions/README.md)
 
-#### The Community
+### The Community
 
 We communicate using a [slack team](https://plugdj-extdevs.slack.com), if you would like to be added, please email
 therealhenchman@gmail.com
@@ -18,7 +18,7 @@ We are here to encourage best practices. Every effort should be taken to protect
 posted should never encourage abusing the API, harming users with the collection of data, or spamming and/or causing
 the site any harm
 
-#### Rules for contributing
+### Rules For Contributing
 
 * Please use the **staging** branch, this way they can be edited before they go live. Only hot fixes should hit the
 master branch.
@@ -47,7 +47,7 @@ Style:
 
 Thank you for making this project possible by contributing!
 
-#### Disclaimer
+### Disclaimer
 
 The information provided here is as, without warranty. Any action you may take upon reading this information is of your
 own volition. Please understand that any of the information here may be wrong at any time, and may not even be correct
