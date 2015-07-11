@@ -15,3 +15,12 @@ Event name: API.CHAT_COMMAND
 Returns string containing the entered command
 
 **Please Note:** the default [commands](/api/commands.md) provided by plug.dj, will not emit this event!
+
+### Example Listener
+
+```js
+
+API.on(API.CHAT_COMMAND, function(data){
+    console.log(data);
+});
+```
