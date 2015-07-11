@@ -8,8 +8,8 @@ Event passed when a user accepts your friend req.
 ```js
 {
 	"a":"friendAccept", // Event name
-	"p":"IcedWolf",  // User who accepted
-	"s":"dashboard" // Source
+	"p":"IcedWolf",  	// User who accepted
+	"s":"dashboard" 	// Source
 }
 ```
 
