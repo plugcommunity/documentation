@@ -4,8 +4,8 @@
 | Event Name            | Variable                                                  | Backend Name |
 | ----------            | --------                                                  | ------------ |
 | Chat Messages         | [API.CHAT](/api/events/chat.md)                           | "[chat](/api/events/chat.md)" |
-| Chat (/) Commands     | [API.CHAT_COMMAND](/api/events/commands.md)               | ~Frontend Only~ |
-| DJ Advance            | [API.DJ_ADVANCE](/api/events/advance.md)                  | "[advance](/api/events/advance.md)" |
+| Chat (/) Commands     | [API.CHAT_COMMAND](/api/events/chat_commands.md)          | ~Frontend Only~ |
+| DJ Advance            | [API.DJ_ADVANCE](/api/events/dj_advance.md)                  | "[advance](/api/events/dj_advance.md)" |
 | Grab Updates          | [API.GRAB_UPDATE](/api/events/grab_update.md)             | "[grab](/api/events/grab_update.md)"  |
 | Mod Skip              | [API.MOD_SKIP](/api/events/modSkip.md)                    | "[modSkip](/api/events/modSkip.md)" |
 | History Update        | [API.HISTORY_UPDATE](/api/events/history_update.md)       | ~Frontend Only~ |

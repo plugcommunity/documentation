@@ -6,6 +6,8 @@ This event happens when someone joins the waitlist
 
 Event Constant: API.WAITLST_UPDATE
 
+### Example
+
 ```js
 [
     {
@@ -17,17 +19,32 @@ Event Constant: API.WAITLST_UPDATE
         level: 1,
         role: 0,
         gRole: 0,
-        status: 1,
         badge: undefined,
-        vote: 0,
-        grab: false,
-        priority: 0,
-        uIndex: undefined,
     },
+    {
+        id: 80,
+        username: '',
+        avatarID: '',
+        language: 'en',
+        joined: undefined,
+        level: 1,
+        role: 0,
+        gRole: 0,
+        badge: undefined,
+    }
 ]
 ```
 
 Ordered array of users in the wait list.
+
+### Example Listener
+
+```js
+API.on(API.WAITLIST_UPDATE, function(data){
+    //This will log the packet of the event
+    console.log(data);
+});
+```
 
 # Backend
 

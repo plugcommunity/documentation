@@ -4,7 +4,22 @@ Event emitted containing the new playing song, when it starts
 
 # Frontend
 
+Event name: API.DJ_ADVANCE
+
+### Example Listener
+
+```js
+API.on(API.ADVANCE, function(data){
+    //This will log the packet of the event
+    console.log(data);
+});
+```
+
+### Code Example
+
 # Backend
+
+Event Name: "advance"
 
 ### Packet Example
 

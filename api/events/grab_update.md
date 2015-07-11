@@ -1,30 +1,43 @@
-# Grab Event
+# Grab Update
 
-Grab event fires when a user grabs a song.
+Event emitted when a user grabs a track (Previously known as curated)
 
 # Frontend
 
-Event name: ???
+Event name: API.GRAB_UPDATE
 
-### Packet Example
-
-And an example of the full event package looks like:
+### Example
 
 ```js
-???
+{
+    user: {
+        id: 0,
+        username: '',
+        avatarID: '',
+        language: 'en',
+        joined: undefined,
+        level: 1,
+        role: 0,
+        gRole: 0,
+        badge: undefined,
+    }
+}
 ```
 
+Returns `Object.user` containing the user object of the person who 
 
 ### Example Listener
 
 ```js
-
-
+API.on(API.GRAB_UPDATE, function(data){
+    //This will log the packet of the event
+    console.log(data);
+});
 ```
 
 # Backend
 
-Event name: "chat"
+Event Name: "grab"
 
 ### Example
 ```js
@@ -34,6 +47,4 @@ Event name: "chat"
     "p": 5113863             // User who grabed
 }
 ```
-
-
 
