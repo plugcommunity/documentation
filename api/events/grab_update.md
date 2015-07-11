@@ -40,3 +40,11 @@ API.on(API.GRAB_UPDATE, function(data){
 Event Name: "grab"
 
 ### Example
+```js
+{
+    "s": "thenightcoreclub", // Source of event
+    "a": "grab",             // Event name
+    "p": 5113863             // User who grabed
+}
+```
+
