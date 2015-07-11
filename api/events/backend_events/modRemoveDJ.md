@@ -1,6 +1,6 @@
 # modRemoveDJ message
 
-Event passed when a moderator removes a user from the waitlist.
+Event passed when a moderator removes a user from the wait list.
 
 ### Packet Example
 

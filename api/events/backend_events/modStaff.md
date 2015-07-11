@@ -5,7 +5,7 @@ Event passed when a moderator sets a user as staff member.
 **Note**: There's five roles of which you can choose
 
 * **0**: None, just a regular user
-* **1**: ResidentDJ, can lock the waitlist
+* **1**: ResidentDJ, can lock the wait list
 * **2**: Bouncer, can delete chat messages, remove DJs, force skip and ban people
 * **3**: Manager, can everything except removing co hosts and managers as well as editing the room meta
 * **4**: Co-Host, can everything except removing co hosts
