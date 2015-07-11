@@ -6,6 +6,32 @@ initiated by plug.dj happens through the socket server, as well as sending chat 
 Plug.dj sends information like users joining, chat messages coming in, and song advances over the socket API. As a
 client, you can send authentication messages and chat messages.
 
+## Connecting To The Socket Server
+
+The socket server is a WebSocket server that lives at `wss://godj.plug.dj:443/socket`. The socket server is separated
+from plug.dj's other servers, so you have to do a little bit of work to authenticate yourself to it.
+
+(Domain trivia: `godj` stands for Go DJ, because the socket server is written in Go!)
+
+These examples will assume JavaScript and Node.js, but the principles apply to every language/platform/library.
+
+ 1. First, you need to connect to the server. This is the easiest part&em;just use your favourite WebSocket library:
+    ```js
+    var WebSocket = require('ws');
+    var socket = new WebSocket('wss://godj.plug.dj:443/socket', {
+        origin: 'https://plug.dj'
+    });
+    ```
+    As you may notice, though, there is a small caveat here: the socket server only accepts connections that originate
+    from https://plug.dj. Browsers set the `Origin:` header automatically, but your websocket library may not! If you're
+    having trouble connecting, check the documentation of your library on how to set the `Origin` header properly.
+
+ 1. Second, once the connection is complete, you need to send an authentication token to prove that you're you. You can
+    obtain a token from the [`auth/token`](#) endpoint. Sending this token to the server is described in
+    [Sending Messages: `auth`](#).
+
+Once you are connected and authenticated, you can start sending and receiving messages.
+
 ## Messages From Plug.dj
 
 There are two types of messages that you might receive. One is the `h` message, the other is the Event message.
