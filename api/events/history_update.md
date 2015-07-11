@@ -1,4 +1,4 @@
-# Advance message
+# History Update
 
 This is a **frontend only** event. It is a result of the getHistory method, which is obtained when DJ_ADVANCE is fired.
 

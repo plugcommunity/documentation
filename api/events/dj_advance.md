@@ -1,4 +1,4 @@
-# Advance message
+# DJ/Song Advance
 
 Event emitted containing the new playing song, when it starts
 

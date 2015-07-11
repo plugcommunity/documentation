@@ -1,4 +1,4 @@
-# Waitlist Update
+# Wait List Update
 
 This event happens when someone joins the waitlist
 
@@ -12,17 +12,6 @@ Event Constant: API.WAITLST_UPDATE
 [
     {
         id: 0,
-        username: '',
-        avatarID: '',
-        language: 'en',
-        joined: undefined,
-        level: 1,
-        role: 0,
-        gRole: 0,
-        badge: undefined,
-    },
-    {
-        id: 80,
         username: '',
         avatarID: '',
         language: 'en',
