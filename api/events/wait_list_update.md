@@ -1,10 +1,12 @@
-# Waitlist Update
+# Wait List Update
 
-This event happens when someone joins the waitlist
+This event happens when someone joins the wait list
 
 # Frontend
 
-Event Constant: API.WAITLST_UPDATE
+Event Constant: API.WAI_TLST_UPDATE
+
+### Example
 
 ```js
 [
@@ -17,17 +19,21 @@ Event Constant: API.WAITLST_UPDATE
         level: 1,
         role: 0,
         gRole: 0,
-        status: 1,
         badge: undefined,
-        vote: 0,
-        grab: false,
-        priority: 0,
-        uIndex: undefined,
-    },
+    }
 ]
 ```
 
 Ordered array of users in the wait list.
+
+### Example Listener
+
+```js
+API.on(API.WAIT_LIST_UPDATE, function(data){
+    //This will log the packet of the event
+    console.log(data);
+});
+```
 
 # Backend
 

@@ -7,12 +7,12 @@ Event passed containing information about a message that was deleted by staff
 
 ```js
 {
-    'a': 'chatDelete', // Event name
+    'a': 'chatDelete',                  // Event name
     'p': {
-        'c': 'xxxxxxx-xxxxxxxxxxxxx', // Message ID
-        'mi': xxxxxxx // ID of user who removed the message
+        'c': 'xxxxxxx-xxxxxxxxxxxxx',   // Message ID
+        'mi': -1                        // ID of user who removed the message
     },
-    's': 'xxxx' // Room name
+    's': 'xxxx'                         // Room name
 }
 ```
 ### Real life example

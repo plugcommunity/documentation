@@ -1,10 +1,25 @@
-# Advance message
+# DJ/Song Advance
 
 Event emitted containing the new playing song, when it starts
 
 # Frontend
 
+Event name: API.ADVANCE
+
+### Example Listener
+
+```js
+API.on(API.ADVANCE, function(data){
+    //This will log the packet of the event
+    console.log(data);
+});
+```
+
+### Code Example
+
 # Backend
+
+Event Name: "advance"
 
 ### Packet Example
 
@@ -13,7 +28,7 @@ Event emitted containing the new playing song, when it starts
     "a": "advance",             //Event Name
     "p": {
         "c": xxxxxxx,           // Current DJ
-        "d": [                  // Other DJs in Waitlist
+        "d": [                  // Other DJs in Wait List
             xxxxxxx,
             xxxxxxx, 
             xxxxxxx
