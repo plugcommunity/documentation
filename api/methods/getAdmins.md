@@ -12,7 +12,17 @@ API.getAdmins();
 
 ```js
 [
-    {[User Object}
+    {
+        id: 80,
+        username: '',
+        avatarID: '',
+        language: 'en',
+        joined: undefined,
+        level: 1,
+        role: 0,
+        gRole: 0,
+        badge: undefined,
+    }
 ]
 ```
 
