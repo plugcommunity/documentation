@@ -1,10 +1,10 @@
-# Advance message
+# DJ/Song Advance
 
 Event emitted containing the new playing song, when it starts
 
 # Frontend
 
-Event name: API.DJ_ADVANCE
+Event name: API.ADVANCE
 
 ### Example Listener
 
@@ -28,7 +28,7 @@ Event Name: "advance"
     "a": "advance",             //Event Name
     "p": {
         "c": xxxxxxx,           // Current DJ
-        "d": [                  // Other DJs in Waitlist
+        "d": [                  // Other DJs in Wait List
             xxxxxxx,
             xxxxxxx, 
             xxxxxxx

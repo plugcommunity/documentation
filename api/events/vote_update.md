@@ -1,4 +1,4 @@
-# Vote
+# Vote Updates
 
 This event happens when a user votes using the woot or meh buttons (Or via the API)
 

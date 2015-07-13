@@ -1,8 +1,6 @@
 # modAddDJ message
 
 Event passed when a moderator adds a user to waitlist
-```js
-
 
 ### Example
 
@@ -17,4 +15,3 @@ Event passed when a moderator adds a user to waitlist
 	"s": "thenightcoreclub"		// Source event
 }
 ```
-

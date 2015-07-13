@@ -1,4 +1,4 @@
-# plug.dj Bots
+# Moderation Bots
 
 
 ### Resources

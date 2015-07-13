@@ -25,4 +25,4 @@ The Socket Server
 * [Server Information](/api/socket.md)
 
 The RESTful API
-* [API Endpoints](/api/endpoints.md)
+* [API Endpoints](/api/endpoints/README.md)
