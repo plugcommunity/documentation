@@ -1,5 +1,6 @@
 # friendAccept message
 
+<<<<<<< HEAD
 Event passed when a user accepts your friend request.
 
 
@@ -20,3 +21,18 @@ Event passed when a user accepts your friend request.
     's': 'loves-kpop'
 }
 ```
+=======
+Event passed when a user accepts your friend req.
+
+
+### Example
+
+```js
+{
+	"a":"friendAccept", // Event name
+	"p":"IcedWolf",  	// User who accepted
+	"s":"dashboard" 	// Source
+}
+```
+
+>>>>>>> ff85781228228136d48a3ea13c9fd95eb5dcbd11
