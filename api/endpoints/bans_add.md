@@ -68,21 +68,11 @@ Wrong duration time
 }
 ```
 
-Reason is missing
+reason or userID is missing
 ```json
 {
     "data": [
-        "reason is required"
-    ],
-    "status": "requestError",
-}
-```
-
-userID is missing
-```json
-{
-    "data": [
-        "userID is required"
+        "xxxxxxxx is required"
     ],
     "status": "requestError",
 }

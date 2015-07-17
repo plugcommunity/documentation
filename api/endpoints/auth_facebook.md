@@ -20,9 +20,9 @@ _POST_
 
 ```json
 {
-    "csrf": "xxxxx" 
-    "accessToken": "xxx" 
-    "userID": "xxx" 
+    "csrf": "xxxxx",
+    "accessToken": "xxx", 
+    "userID": "xxx"
 }
 ```
 

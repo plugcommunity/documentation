@@ -42,6 +42,26 @@ id is missing
 }
 ```
 
+Not enough plug points
+```json
+{
+    "data": [
+        "fundsPP"
+    ],
+    "status": "requestError",
+}
+```
+
+Not a store item
+```json
+{
+    "data": [
+        "listing"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

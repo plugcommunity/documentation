@@ -18,8 +18,8 @@ _POST_
 
 ```json
 {
-    "csrf": "xxxxx"
-    "email": "xxx@xxx.com"
+    "csrf": "xxxxx",
+    "email": "xxx@xxx.com",
     "password": "xxx"
 }
 ```
