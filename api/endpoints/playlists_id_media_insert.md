@@ -18,13 +18,13 @@ _POST_
 ```json
 {
     "media": [{
-        'cid': 'xxx',
-        'title': 'xxx',
-        'author': 'xxx',
-        'image': 'xxx',
-        'duration': 0,
-        'format': 1,
-        'id': -1
+        "cid": "xxx",
+        "title": "xxx",
+        "author": "xxx",
+        "image": "xxx",
+        "duration": 0,
+        "format": 1,
+        "id": -1
     }],
     "append": false
 }
