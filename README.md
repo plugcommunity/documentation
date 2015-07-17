@@ -44,6 +44,8 @@ patched or fixed.
 * houdhakker2
 * IgorAntun
 * Marvin (xBytez)
+* René Kooi (goto-bus-stop)
+* SooYou
 
 Thank you for making this project possible by contributing!
 
