@@ -13,14 +13,34 @@ _POST_
 ### Parameters
 
 **csrf**: Cross Site Request Forgery token
-**email**: your email
-**password**: your password
+**email**: Your email
+**password**: Your password
 
 ```json
 {
     "csrf": "xxxxx"
     "email": "xxx@xxx.com"
     "password": "xxx"
+}
+```
+
+### Possible error messages
+
+CSRF token is invalid
+```json
+{
+    "data": [
+        "This CSRF token has expired."
+    ],
+    "status": "csrfTokenExpired",
+}
+```
+
+Email or password aren't correct
+```json
+{
+    "data": [],
+    "status": "badLogin",
 }
 ```
 

@@ -14,6 +14,28 @@ _GET_
 
 **id**: The ID of the user you want to check.
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+id is missing
+```json
+{
+    "data": [
+        "id is required"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

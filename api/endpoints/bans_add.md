@@ -38,6 +38,56 @@ _POST_
 }
 ```
 
+### Possible error messages
+
+Insufficient permissions
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+Wrong userID
+```json
+{
+    "data": [],
+    "status": "requestError",
+}
+```
+
+Wrong duration time
+```json
+{
+    "data": [
+        "Not a valid ban duration"
+    ],
+    "status": "requestError",
+}
+```
+
+Reason is missing
+```json
+{
+    "data": [
+        "reason is required"
+    ],
+    "status": "requestError",
+}
+```
+
+userID is missing
+```json
+{
+    "data": [
+        "userID is required"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

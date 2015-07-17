@@ -20,6 +20,28 @@ _PUT_
 }
 ```
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+language is missing
+```json
+{
+    "data": [
+        "language is required"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

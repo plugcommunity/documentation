@@ -10,6 +10,18 @@ The users/me endpoint retrieves some data about yourself as well as notification
 
 _GET_
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
 ### Data returned
 
 ```js

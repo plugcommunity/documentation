@@ -10,6 +10,18 @@ The users/me/history endpoint retrieves a sorted list of songs you have played i
 
 _GET_
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
 ### Data returned
 
 ```js

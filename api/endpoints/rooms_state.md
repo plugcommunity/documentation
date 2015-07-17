@@ -13,6 +13,28 @@ population count.
 
 _GET_
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+Still on dashboard
+```json
+{
+    "data": [
+        "not in a room."
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

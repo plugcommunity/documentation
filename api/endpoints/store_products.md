@@ -18,6 +18,18 @@ _GET_
 **type**: Same as the type member of the store item
 **category**: Same as the category member of the store item
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
 ### Data returned
 
 ```js

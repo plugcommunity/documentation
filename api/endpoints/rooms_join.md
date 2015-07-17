@@ -20,6 +20,28 @@ _POST_
 }
 ```
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+slug is missing
+```json
+{
+    "data": [
+        "slug is required"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

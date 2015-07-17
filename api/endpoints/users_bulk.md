@@ -14,6 +14,38 @@ _POST_
 
 **ids**: The IDs of the users you want to retrieve data of as an array
 
+```json
+{
+    "ids": [
+        -1,
+        -1,
+        -1
+    ]
+}
+```
+
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+ids is missing
+```json
+{
+    "data": [
+        "ids is required"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

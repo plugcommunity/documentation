@@ -22,6 +22,28 @@ _PUT_
 }
 ```
 
+### Possible error messages
+
+Insufficient permissions
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+shouldCycle is missing
+```json
+{
+    "data": [
+        "shouldCycle is required"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

@@ -22,6 +22,28 @@ _POST_
 }
 ```
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+playlistID or historyID is missing
+```json
+{
+    "data": [
+        "xxxxxxxx is required"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

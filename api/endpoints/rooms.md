@@ -55,6 +55,28 @@ _GET_, _POST_
 }
 ```
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+name or private is missing
+```json
+{
+    "data": [
+        "xxxxxxxx is required"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned for _POST_
 
 ```js

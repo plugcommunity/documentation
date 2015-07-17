@@ -11,6 +11,16 @@ The playlists endpoint retrieves or modifies your playlists.
 
 _GET_, _POST_, _DELETE_
 
+### Possible error messages
+
+Insufficient permissions
+```json
+{
+    "data": [],
+    "status": "notAuthorized",
+}
+```
+
 ### Data returned for _GET_
 
 ```js
@@ -44,6 +54,28 @@ _GET_, _POST_, _DELETE_
         "format": 1,
         "id": -1
     }]
+}
+```
+
+### Possible error messages
+
+Insufficient permissions
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+name or media is missing
+```json
+{
+    "data": [
+        "xxxxxxxx is required"
+    ],
+    "status": "requestError",
 }
 ```
 

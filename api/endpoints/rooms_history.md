@@ -10,6 +10,18 @@ The room history endpoint enables you to get the room's history.
 
 _GET_
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
 ### Data returned
 
 ```js

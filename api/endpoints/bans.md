@@ -25,6 +25,18 @@ with a requestError status.
 
 _GET_
 
+### Possible error messages
+
+Insufficient permissions
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
 ### Data returned
 
 ```js

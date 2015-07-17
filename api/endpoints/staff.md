@@ -19,6 +19,18 @@ The staff endpoint requests all staff members of the room you are currently in.
 
 _GET_
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
 ### Data returned
 
 ```js

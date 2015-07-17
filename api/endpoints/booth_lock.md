@@ -24,6 +24,28 @@ _PUT_
 }
 ```
 
+### Possible error messages
+
+Insufficient permissions
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+isLocked or removeAllDJs is missing
+```json
+{
+    "data": [
+        "xxxxx is required"
+    ],
+    "status": "requestError",
+}
+```
+
 ### Data returned
 
 ```js

@@ -10,6 +10,18 @@ The booth/skip/me endpoint enables you to skip yourself as the DJ.
 
 _POST_
 
+### Possible error messages
+
+Insufficient permissions (not being logged in)
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
 ### Data returned
 
 ```js
