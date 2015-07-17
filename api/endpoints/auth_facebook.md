@@ -14,11 +14,15 @@ _POST_
 
 ### Parameters
 
-```js
+**csrf**: Cross Site Request Forgery token
+**accessToken**: Access token given by facebook.com
+**userID**: userID given by facebook.com
+
+```json
 {
-    'csrf': 'xxxxx',        // Cross Site Request Forgery token
-    'accessToken': 'xxx',   // Access token given by facebook.com
-    'userID': 'xxx'         // userID given by facebook.com
+    "csrf": "xxxxx" 
+    "accessToken": "xxx" 
+    "userID": "xxx" 
 }
 ```
 

@@ -12,11 +12,15 @@ _POST_
 
 ### Parameters
 
-```js
+**csrf**: Cross Site Request Forgery token
+**email**: your email
+**password**: your password
+
+```json
 {
-    'csrf': 'xxxxx',        // Cross Site Request Forgery token
-    'email': 'xxx@xxx.com', // E-Mail address
-    'password': 'xxx'       // Password in plaintext
+    "csrf": "xxxxx"
+    "email": "xxx@xxx.com"
+    "password": "xxx"
 }
 ```
 
