@@ -14,8 +14,8 @@ _GET_, _POST_, _DELETE_
 
 ### Parameters for _GET_
 
-**page**: Pagination, starts at page 1.
-**limit**: The amount of rooms that should be shown per page.
+**page**: Pagination, starts at page 1
+**limit**: The amount of rooms that should be shown per page
 
 ### Data returned for _GET_
 

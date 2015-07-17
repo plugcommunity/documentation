@@ -1,6 +1,6 @@
 # store/purchase/username Endpoint
 
-The store/purchase/username endpoint enables you to buy items from the store.
+The store/purchase/username endpoint enables you to change your username.
 
 ### Endpoint
 

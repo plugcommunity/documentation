@@ -1,6 +1,6 @@
 # playlists/:id/media Endpoint
 
-The playlists/:id/media endpoint retrieves all of your playlists.
+The playlists/:id/media endpoint retrieves all media objects in one of your playlists.
 
 ### Endpoint
 

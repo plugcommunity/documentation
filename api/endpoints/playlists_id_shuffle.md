@@ -14,7 +14,7 @@ _PUT_
 
 ```js
 {
-    'data': [{
+    'data': [{              // Contains the requested data
         'cid': 'xxx',       // Media ID used on the originating website
         'title': 'xxx',     // Media title
         'author': 'xxx',    // Media author

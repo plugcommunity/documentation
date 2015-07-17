@@ -1,6 +1,6 @@
 # rooms Endpoint
 
-The rooms endpoint retrieves all rooms in a sorted list based on the amount of people that are connected or creates a room via _POST_.
+The rooms endpoint retrieves all rooms in a sorted list ordered by the amount of people that are connected or creates a room via _POST_.
 
 ### Endpoint
 
@@ -14,8 +14,8 @@ _GET_, _POST_
 ### Parameters
 
 **q**: Search query used to filter the rooms
-**page**: Pagination, starts at page 1.
-**limit**: The amount of rooms that should be shown per page.
+**page**: Pagination, starts at page 1
+**limit**: The amount of rooms that should be shown per page
 
 ### Data returned for _GET_
 

@@ -1,6 +1,6 @@
 # playlists/:id/media/move Endpoint
 
-The playlists/:id/media/move lets you move media objects to another index in a playlist.
+The playlists/:id/media/move endpoint lets you move media objects to another index in a playlist.
 
 ### Endpoint
 
@@ -12,7 +12,7 @@ _PUT_
 
 ### Parameters
 
-**ids**: Array of media IDs you want to move
+**ids**: Array of media IDs which represent the media you want to move
 **beforeID**: ID of the media where the media should be inserted
 
 ```json
@@ -28,7 +28,7 @@ _PUT_
 
 ```js
 {
-    'data': [{
+    'data': [{              // Contains the requested data
         'cid': 'xxx',       // Media ID used on the originating website
         'title': 'xxx',     // Media title
         'author': 'xxx',    // Media author

@@ -1,6 +1,6 @@
 # users/bulk Endpoint
 
-The users/bulk endpoint retrieves the data about a specific user.
+The users/bulk endpoint retrieves the data about several users.
 
 ### Endpoint
 

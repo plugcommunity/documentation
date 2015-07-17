@@ -1,6 +1,6 @@
 # playlists/:id/media/update Endpoint
 
-The playlists/:id/media/update lets you update the metadata of a media object.
+The playlists/:id/media/update endpoint lets you update the metadata of a media object.
 
 ### Endpoint
 

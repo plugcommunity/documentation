@@ -1,6 +1,6 @@
 # rooms/join Endpoint
 
-The rooms/join enables you to join a room
+The rooms/join endpoint enables you to join a room.
 
 ### Endpoint
 
@@ -10,10 +10,13 @@ The rooms/join enables you to join a room
 
 _POST_
 
-### parameters
-```js
+### Parameters
+
+**slug**: The URL conform name of the room you want to join
+
+```json
 {
-    'slug': 'xxxxx'         // The URL conform name of the room is needed to join``
+    "slug": "xxxxx"
 }
 ```
 

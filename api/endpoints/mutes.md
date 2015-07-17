@@ -2,7 +2,7 @@
 
 The mutes endpoint modifies the current mutes.
 
-**Note**: you need to have sufficient permission in the room to acces this resource, otherwise you'll just be greeted
+**Note**: You need to have sufficient permissions in the room to access this resource, otherwise you'll just be greeted
 with a requestError message.
 
 **Reason**: The reason member is set as a single number which represent the following reasons:
@@ -32,7 +32,7 @@ _GET_, _POST_
     'data': [{                  // Contains the requested data
         'expires': 0,           // Duration in seconds
         'moderator': 'xxxx',    // Name of the moderator
-        'reason': 1,            // Reason why they got banned
+        'reason': 1,            // Reason why they got muted
         'id': -1,               // ID of the user
         'username': 'xxxx'      // Name of the user
     }],

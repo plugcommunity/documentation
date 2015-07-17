@@ -1,9 +1,9 @@
 # bans Endpoint
 
-The bans endpoint retrieves a list of active bans
+The bans endpoint retrieves a list of active bans.
 
-**Note**: you need to have sufficient permission in the room to acces this resource, otherwise you'll just be greeted
-with a requestError message.
+**Note**: You need to have sufficient permissions in the room to access this resource, otherwise you'll just be greeted
+with a requestError status.
 
 **Reason**: The reason member is set as a single number which represent the following reasons:
 **1**: (VIOLATING_COMMUNITY_RULES) User violated the community rules
@@ -32,7 +32,7 @@ _GET_
     'data': [{                  // Contains the requested data
         'duration': 'x',        // See BanDuration above
         'moderator': 'xxxx',    // Name of the moderator
-        'reason': 1,            // Reason why they got banned
+        'reason': 1,            // Reason why they got banned. See BanReason above
         'id': -1,               // ID of the user
         'timestamp': 'xxx',     // Date when the ban became active
         'username': 'xxxx'      // Name of the user

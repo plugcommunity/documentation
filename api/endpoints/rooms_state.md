@@ -2,7 +2,7 @@
 
 The rooms/state endpoint requests meta information about the room you are currently in.
 
-**NOTE**: The guests member is not available in this request, neither is the amount of guests included in the 
+**NOTE**: The guests member is not available in this request, **neither** is the amount of guests included in the 
 population count.
 
 ### Endpoint

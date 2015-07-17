@@ -1,8 +1,8 @@
 # booth/lock Endpoint
 
-The booth/lock endpoint enables you to lock the waitlist.
+The booth/lock endpoint enables you to decide whether the waitlist should be locked or not.
 
-**Note**: you need to have sufficient permissions in the room to access this resource.
+**Note**: You need to have sufficient permissions in the room to access this resource.
 
 ### Endpoint
 

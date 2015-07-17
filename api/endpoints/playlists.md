@@ -67,7 +67,7 @@ _GET_, _POST_, _DELETE_
 
 **id**: ID of the playlist you want to delete
 
->https://plug.dj/_/playlists/2093483
+>https://plug.dj/_/playlists/-1
 
 ### Data returned for _DELETE_
 

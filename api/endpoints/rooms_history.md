@@ -1,6 +1,6 @@
 # rooms/history Endpoint
 
-The room history endpoint enables you to get the room's history you're in.
+The room history endpoint enables you to get the room's history.
 
 ### Endpoint
 

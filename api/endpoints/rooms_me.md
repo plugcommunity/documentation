@@ -2,7 +2,7 @@
 
 The rooms/me endpoint requests meta information about the rooms you host.
 
-**NOTE**: The guests member is not available in this request, neither is the amount of guests included in the 
+**NOTE**: The guests member is not available in this request, **neither** is the amount of guests included in the 
 population count.
 
 ### Endpoint

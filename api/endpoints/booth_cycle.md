@@ -1,8 +1,8 @@
 # booth/cycle Endpoint
 
-The booth/cycle endpoint enables you to cycle the waitlist.
+The booth/cycle endpoint enables you to decide whether the waitlist should cycle or not.
 
-**Note**: you need to have sufficient permissions in the room to access this resource.
+**Note**: You need to have sufficient permissions in the room to access this resource.
 
 ### Endpoint
 

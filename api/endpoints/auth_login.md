@@ -1,6 +1,6 @@
 # auth/login Endpoint
 
-The auth/login endpoint logs you into the plug.dj service
+The auth/login endpoint logs you into the plug.dj service.
 
 ### Endpoint
 

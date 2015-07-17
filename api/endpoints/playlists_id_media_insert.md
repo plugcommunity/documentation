@@ -1,6 +1,6 @@
 # playlists/:id/media/insert Endpoint
 
-The playlists/:id/media/insert lets you insert media objects.
+The playlists/:id/media/insert endpoint lets you insert media objects into a playlist.
 
 ### Endpoint
 
@@ -12,13 +12,19 @@ _POST_
 
 ### Parameters
 
-**ids**: IDs of the media objects you want to insert
+**media**: Media objects you want to insert
 **append**: Should the array be concatenated at the end of the playlist?
 
 ```json
 {
     "media": [{
-        
+        'cid': 'xxx',
+        'title': 'xxx',
+        'author': 'xxx',
+        'image': 'xxx',
+        'duration': 0,
+        'format': 1,
+        'id': -1
     }],
     "append": false
 }
@@ -28,7 +34,7 @@ _POST_
 
 ```js
 {
-    'data': [{
+    'data': [{              // Contains the requested data
         'cid': 'xxx',       // Media ID used on the originating website
         'title': 'xxx',     // Media title
         'author': 'xxx',    // Media author

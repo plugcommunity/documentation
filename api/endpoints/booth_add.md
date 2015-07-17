@@ -2,7 +2,7 @@
 
 The booth/add endpoint enables you to add a user to the waitlist.
 
-**Note**: you need to have sufficient permissions in the room to access this resource.
+**Note**: You need to have sufficient permissions in the room to access this resource.
 
 ### Endpoint
 

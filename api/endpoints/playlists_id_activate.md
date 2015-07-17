@@ -1,6 +1,6 @@
 # playlists/:id/activate Endpoint
 
-The playlists/:id/activate endpoint enables you to activate a playlist.
+The playlists/:id/activate endpoint enables you to activate a playlist as the one you want to play media of.
 
 ### Endpoint
 

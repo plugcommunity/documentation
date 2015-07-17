@@ -1,6 +1,6 @@
 # playlists/:id/media/delete Endpoint
 
-The playlists/:id/media/delete lets you delete media objects.
+The playlists/:id/media/delete endpoint lets you delete media objects.
 
 ### Endpoint
 
@@ -26,7 +26,7 @@ _POST_
 
 ```js
 {
-    'data': [{
+    'data': [{              // Contains the requested data
         'cid': 'xxx',       // Media ID used on the originating website
         'title': 'xxx',     // Media title
         'author': 'xxx',    // Media author

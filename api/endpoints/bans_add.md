@@ -2,7 +2,7 @@
 
 The bans/add endpoint enables you to ban a user.
 
-**Note**: you need to have sufficient permissions in the room to access this resource.
+**Note**: You need to have sufficient permissions in the room to access this resource.
 
 **Reason**: The reason member is set as a single number which represent the following reasons:
 **1**: (VIOLATING_COMMUNITY_RULES) User violated the community rules

@@ -10,7 +10,7 @@ The users endpoint retrieves the data about a specific user.
 
 _GET_
 
-### Parameters
+### URL Parameters
 
 **id**: The ID of the user you want to check.
 

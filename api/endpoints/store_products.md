@@ -1,6 +1,6 @@
 # store/products Endpoint
 
-The store/products lists all available products in the store
+The store/products endpoint lists all available products in the store.
 
 ### Endpoint
 
@@ -11,9 +11,9 @@ The store/products lists all available products in the store
 
 _GET_
 
-### Parameters
+### URL Parameters
 
-**Note**: Not setting those will retrieve the full list of items available
+**Note**: Not setting these will retrieve the full list of items available
 
 **type**: Same as the type member of the store item
 **category**: Same as the category member of the store item

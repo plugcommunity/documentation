@@ -2,6 +2,8 @@
 
 The booth/remove/:id endpoint lets you remove a user from the waitlist.
 
+**Note**: You need to have sufficient permissions in the room to access this resource.
+
 ### Endpoint
 
 **booth/remove/:id**

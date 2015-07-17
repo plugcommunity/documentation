@@ -1,6 +1,6 @@
 # store/inventory Endpoint
 
-The store/inventory lists all of your boughts items.
+The store/inventory endpoint lists all of your boughts items.
 
 ### Endpoint
 

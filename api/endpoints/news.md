@@ -1,6 +1,6 @@
 # news Endpoint
 
-The news endpoint retrieves a sorted feed from blog.plug.dj
+The news endpoint retrieves a sorted feed from blog.plug.dj.
 
 ### Endpoint
 

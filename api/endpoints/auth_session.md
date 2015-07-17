@@ -1,6 +1,6 @@
 # auth/session Endpoint
 
-The auth/session enables you to log out of plug
+The auth/session endpoint enables you to log out of plug.
 
 ### Endpoint
 
