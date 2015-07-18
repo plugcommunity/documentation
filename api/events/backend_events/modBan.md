@@ -8,30 +8,17 @@ Event passed when a moderator bans a user.
 * **d**: Banned for a day
 * **f**: Banned for ever
 
-### Packet Example
+### Example
 
 ```js
 {
-    'a': 'modBan',      // Event name
-    'p': {
-        'm': 'xxxxxx',	// Name of the moderator
-        'mi': -1,       // ID of the moderator
-        't': 'xxxxxx',  // Name of the user that got banned
-        'd': 'x'        // Duration of the ban
-    },
-    's': 'xxxx'         // Room name
-}
-```
-### Real life example
-```js
-{
-    'a': 'modBan',
-    'p': {
-        'm': 'SooYou',
-        'mi': 3865819,
-        't': 'kool_panda',
-        'd': 'h'
-    },
-    's': 'loves-kpop'
+    "a": "modBan",              // Event name
+    "p": {
+        "t": "Arne",            // User name
+        "d": "h",               // Reason of ban 
+        "m": "Houdhakker2",     // Moderator name
+        "mi": 5113863           // ID moderator 
+    }, 
+    "s": "thenightcoreclub"
 }
 ```

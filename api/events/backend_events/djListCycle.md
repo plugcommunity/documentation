@@ -1,30 +1,28 @@
 # djListCycle message
 
-Event passed when a moderator decides whether the wait list should cycle or not
-
+Event passed containing the message that and administrator put off/on the djCycle
 
 ### Packet Example
 
 ```js
-{
-    'a': 'djListCycle', // Event name
-    'p': {
-        'f': false,	    // Should the wait list cycle?
-        'm': '',		// Name of the moderator that triggered this event
-        'mi': -1        // ID of the moderator
-    },
-    's': 'xxxx'         // Room name
+    "a": "djListCycle", // Event name
+    "p": {
+        "f": False,     // Should the wait list cycle?
+        "mi": xxxxxxx,  // User ID
+        "m": "xxxxxxx"  // User name
+    },  
+    "s": "xxxxxxx"      // Room name
 }
 ```
-### Real life example
+### Real example
 ```js
 {
-    'a': 'djListCycle',
-    'p': {
-        'c': false,
-        'm': 'SooYou',
-        'mi': 3865819
-    },
-    's': 'loves-kpop'
+    "a": "djListCycle",
+    "p": {
+        "f": False, 
+        "mi": 1235782, 
+        "m": "Nanzan"
+    },  
+    "s": "thenightcoreclub"
 }
 ```

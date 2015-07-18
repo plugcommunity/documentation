@@ -1,30 +1,17 @@
 # modAddDJ message
 
-Event passed when a moderator adds a user to the wait list.
+Event passed when a moderator adds a user to waitlist
 
-
-### Packet Example
+### Example
 
 ```js
 {
-    'a': 'modAddDJ',    // Event name
-    'p': {
-        'm': 'xxxxxx',	// Should the wait list cycle?
-        'mi': -1,       // ID of the moderator
-        't': 'xxxxxx'   // Name of the user that got added
-    },
-    's': 'xxxx'         // Room name
-}
-```
-### Real life example
-```js
-{
-    'a': 'modAddDJ',
-    'p': {
-        'm': 'SooYou',
-        'mi': 3865819,
-        't': 'kool_panda'
-    },
-    's': 'loves-kpop'
+	"a": "modAddDJ", 			// Event name
+	"p": {						
+		"mi": 5107634, 			// Moderator ID
+		"m": "TNC.Lizzie", 		// Moderator name
+		"t": "Chocacho"			// User name
+	}, 
+	"s": "thenightcoreclub"		// Source event
 }
 ```
