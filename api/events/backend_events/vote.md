@@ -1,6 +1,6 @@
 # vote message
 
-Event passed when a user votes for a song
+Event passed when a user votes for a song.
 
 
 ### Packet Example

@@ -1,6 +1,6 @@
 # rateLimit message
 
-Event passed when chat enters slow mode
+Event passed when chat enters slow mode.
 
 ### Packet Example
 

@@ -1,6 +1,6 @@
 # ChatDelete message
 
-Event passed containing information about a message that was deleted by staff
+Event passed containing information about a message that was deleted by staff.
 
 
 ### Packet Example
