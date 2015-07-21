@@ -20,6 +20,7 @@ possible.
 | Flood Chat                | "[floodChat]                     (/api/events/backend_events/floodChat.md)"                   |
 | Friend Accept             | "[friendAccept]                  (/api/events/backend_events/friendAccept.md)"                |
 | Friend Request            | "[friendRequest]                 (/api/events/backend_events/friendRequest.md)"               |
+| Gifted                    | "[gifted]                        (/api/events/backend_events/gifted.md)"                      |
 | Grab                      | "[grab]                          (/api/events/backend_events/grab.md)"                        |
 | Kill Session              | "[killSession]                   (/api/events/backend_events/killSession.md)"                 |
 | Mod Add DJ                | "[modAddDJ]                      (/api/events/backend_events/modAddDJ.md)"                    |
