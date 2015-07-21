@@ -1,13 +1,13 @@
 # playlistCycle message
 
-Event passed when your playlist cycles (you finish playing a song in your playlist).
+Event passed when your playlist cycles (you finish playing a song from your playlist).
 
 ### Packet Example
 
 ```js
 {
     'a': 'playlistCycle',   // Event name
-    'p': -1,                // ID of the next Media
+    'p': -1,                // ID of activated playlist
     's': 'xxxx'             // Room name
 }
 ```
