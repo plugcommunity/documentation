@@ -8,7 +8,7 @@ Event passed when a moderator skips the current song.
 {
     'a': 'modSkip',     // Event name
     'p': {
-        'm': 'xxxxxx',	// Name of the moderator
+        'm': 'xxxxxx',  // Name of the moderator
         'mi': -1        // ID of the moderator
     },
     's': 'xxxx'         // Room name
