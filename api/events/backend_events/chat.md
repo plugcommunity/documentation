@@ -1,4 +1,4 @@
-# ChatDelete message
+# chat message
 
 Event passed containing information about a received chat message.
 
