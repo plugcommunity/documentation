@@ -24,7 +24,7 @@ a bunch of chat messages without artifically slowing the amount of requests down
 | Auth Session              | "[auth/session]                  (/api/endpoints/auth_session.md)"                       |
 | Bans                      | "[bans]                          (/api/endpoints/bans.md)"                               |
 | Bans Add                  | "[bans/add]                      (/api/endpoints/bans_add.md)"                           |
-| Booth                     | "[booth]                         (/api/endpoints/booth_md)"                              |
+| Booth                     | "[booth]                         (/api/endpoints/booth.md)"                              |
 | Booth Add                 | "[booth/add]                     (/api/endpoints/booth_add.md)"                          |
 | Booth Cycle               | "[booth/cycle]                   (/api/endpoints/booth_cycle.md)"                        |
 | Booth Lock                | "[booth/lock]                    (/api/endpoints/booth_lock.md)"                         |
