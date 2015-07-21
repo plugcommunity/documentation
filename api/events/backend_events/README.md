@@ -9,6 +9,7 @@ possible.
 | Event Name                | Link                                                                                          |
 |-----------------------    | -------------                                                                                 |
 | Ack                       | "[ack]                           (/api/events/backend_events/ack.md)"                         |
+| Advance                   | "[advance]                       (/api/events/backend_events/advance.md)"                     |
 | Ban                       | "[ban]                           (/api/events/backend_events/ban.md)"                         |
 | Chat                      | "[chat]                          (/api/events/backend_events/chat.md)"                        |
 | ChatDelete                | "[chatDelete]                    (/api/events/backend_events/chatDelete.md)"                  |
@@ -23,6 +24,7 @@ possible.
 | Gifted                    | "[gifted]                        (/api/events/backend_events/gifted.md)"                      |
 | Grab                      | "[grab]                          (/api/events/backend_events/grab.md)"                        |
 | Kill Session              | "[killSession]                   (/api/events/backend_events/killSession.md)"                 |
+| Level Up                  | "[levelUp]                       (/api/events/backend_events/levelUp.md)"                     |
 | Mod Add DJ                | "[modAddDJ]                      (/api/events/backend_events/modAddDJ.md)"                    |
 | Mod Ban                   | "[modBan]                        (/api/events/backend_events/modBan.md)"                      |
 | Mod Move DJ               | "[modMoveDJ]                     (/api/events/backend_events/modMoveDJ.md)"                   |
