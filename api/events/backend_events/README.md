@@ -4,14 +4,6 @@ The websocket introduces a 2 way communication with the service in real time.
 This is especially needed for messaging and other events that should be executed with as little time difference as 
 possible.
 
-
-
-### Tips and tricks
-
-One thing to mention is that you can only send a limited amount of request in a certain timespan, if you overdo it 
-for a longer amount of time you'll be banned. This can certainly happen when you decide to to delete
-a bunch of chat messages without artifically slowing the amount of requests down.
-
 ### List of endpoints
 
 | Event Name                | Link                                                                                          |
