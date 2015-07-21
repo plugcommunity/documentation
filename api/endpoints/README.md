@@ -24,7 +24,7 @@ a bunch of chat messages without artifically slowing the amount of requests down
 | Auth Session              | "[auth/session]                  (/api/endpoints/auth_session.md)"                       |
 | Bans                      | "[bans]                          (/api/endpoints/bans.md)"                               |
 | Bans Add                  | "[bans/add]                      (/api/endpoints/bans_add.md)"                           |
-| Booth                     | "[booth]                         (/api/endpoints/booth_md)"                              |
+| Booth                     | "[booth]                         (/api/endpoints/booth.md)"                              |
 | Booth Add                 | "[booth/add]                     (/api/endpoints/booth_add.md)"                          |
 | Booth Cycle               | "[booth/cycle]                   (/api/endpoints/booth_cycle.md)"                        |
 | Booth Lock                | "[booth/lock]                    (/api/endpoints/booth_lock.md)"                         |
@@ -55,6 +55,7 @@ a bunch of chat messages without artifically slowing the amount of requests down
 | Rooms History             | "[rooms/history]                 (/api/endpoints/rooms_history.md)"                      |
 | Rooms Join                | "[rooms/join]                    (/api/endpoints/rooms_join.md)"                         |
 | Rooms Me                  | "[rooms/me]                      (/api/endpoints/rooms_me.md)"                           |
+| Rooms SOS                 | "[rooms/sos]                     (/api/endpoints/rooms_sos.md)"                          |
 | Rooms State               | "[rooms/state]                   (/api/endpoints/rooms_state.md)"                        |
 | Rooms Update              | "[rooms/update]                  (/api/endpoints/rooms_update.md)"                       |
 | Rooms Validate            | "[rooms/validate]                (/api/endpoints/rooms_validate.md)"                     |

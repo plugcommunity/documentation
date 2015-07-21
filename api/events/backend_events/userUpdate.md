@@ -14,7 +14,8 @@ Event passed when a user changes their username, badge, avatar or reach the next
         'level': -1,        // Level
         'avatarID': 'xxx',  // ID of the avatar used
         'username': 'xxx',  // Display name of the user
-        'badge': 'xxx'      // Badge of the user
+        'badge': 'xxx',     // Badge of the user
+        'guest': 0          // Is the user a guest?
     }, 
     's': 'xxxx'             // Room name
 }

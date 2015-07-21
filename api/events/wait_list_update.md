@@ -41,9 +41,9 @@ Event name: "djListUpdate"
 
 ``` js
 {
-	"a": "djListUpdate", 
-	"p": [6124312, ... 6163797],
-	"s": "thenightcoreclub"
+	'a': 'djListUpdate', 
+	'p': [6124312, ... 6163797],
+	's': 'thenightcoreclub'
 }
 ```
 

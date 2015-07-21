@@ -31,7 +31,7 @@ Insufficient permissions (not being logged in)
         'gRole': 0,         // Global role of the user (0 = None; 3 = Brand Ambassador (BA); 5 = Admin)
         'id': -1,           // ID of the user
         'joined': 'xxx',    // String representation of the time the user joined plug (e.g.: '2014-07-23 22:47:00.573000')
-        'level': 1,         // Level of the user,
+        'level': 1,         // Level of the user
         'status': 0,        // (deprecated) Status of the user
         'timestamp': 'xxx', // When the friend invite was sent
         'username': 'xxx'   // Name of the user

@@ -22,7 +22,7 @@ _GET_, _POST_
         'id': -1,           // ID of the user
         'joined': 'xxx',    // String representation of the time the user joined plug (e.g.: '2014-07-23 22:47:00.573000')
         'language': 'xx',   // ISO 639-1 representation of the language used by the user
-        'level': 1,         // Level of the user,
+        'level': 1,         // Level of the user
         'status': 0,        // (deprecated) Status of the user
         'room': {
             'slug': 'xxx',  // URL conform representaiton of the room's name

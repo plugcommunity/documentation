@@ -1,6 +1,6 @@
 # djListCycle message
 
-Event passed when a moderator decides whether the wait list should cycle or not
+Event passed when a moderator decides whether the wait list should cycle or not.
 
 
 ### Packet Example

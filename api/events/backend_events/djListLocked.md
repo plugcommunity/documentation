@@ -1,6 +1,6 @@
 # djListLocked message
 
-Event passed when a moderator decides whether the wait list should be locked or not
+Event passed when a moderator decides whether the wait list should be locked or not.
 
 
 ### Packet Example
