@@ -2,7 +2,7 @@
 
 The booth/skip endpoint enables you to skip the current DJ.
 
-**Note**: You need to have sufficient permission in the room to acces this resource.
+**Note**: You need to have sufficient permissions in the room to access this resource.
 
 ### Endpoint
 
