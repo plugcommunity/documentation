@@ -4,7 +4,7 @@ The websocket introduces a 2 way communication with the service in real time.
 This is especially needed for messaging and other events that should be executed with as little time difference as 
 possible.
 
-### List of endpoints
+### List of emitted events
 
 | Event Name                | Link                                                                                          |
 |-----------------------    | -------------                                                                                 |
