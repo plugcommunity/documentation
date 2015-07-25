@@ -96,3 +96,78 @@ We can see that an event message has three cryptically named properties: `a`, `p
    
    That might be a lot to swallow, so TL;DR: verify that the `s` property is "dashboard" or the current community slug
    before processing messages.
+
+## Sending Messages
+
+You can only send two types of messages to plug.dj: The "auth" and "chat" messages. They follow a format that's somewhat
+similar to the Event Messages format, but in a plain JSON Object instead of a JSON array.
+
+```json
+{
+    "a": "chat",
+    "p": "My Chat Message",
+    "t": 1437829673
+}
+```
+
+The `a` and `p` properties again are short for "action" and "parameter". In both the "auth" and "chat" messages, the
+parameter is just a string (an auth token or chat message contents). You don't need to send the room slug in chat
+messages, because you can only be in a single room at a time--so plug.dj already knows where your message should go.
+
+The `t` property is new: It's the UNIX time at which you sent your message. (In seconds, so if you're using JavaScript
+you should divide by 1000 first: `Math.floor(Date.now() / 1000)`.) Theoretically, the plug.dj web app offsets this to be
+close to the plug.dj server time using the `window._st` JavaScript variable, but it doesn't appear to affect much. For
+now, you're safe just using your local UNIX time--or even completely bogus values like your birthday.
+
+### auth
+
+The "auth" message is the first message you should send to the socket, and you should send it _immediately_ when the
+connection is set up. Plug.dj won't wait for you for long, so you can't open the socket and send your message ten
+seconds later.
+
+The parameter to this message is the auth token you got from the [`auth/token`](#) endpoint.
+
+An example auth message could look like:
+
+```json
+{
+    "a": "auth",
+    "p": "feod3wEqG4YxXJ+Y0xedVsuMdubvXnkbDXP27v8F2XNu8X4T8yzA2dJIXWxxzGKyLZSBpK0xVydaIh71cZ9TaUTtS6SzK89ZqU9UbuxY0TkPnFEyg9gReOISup4xBDvPDLjE+qJt2rV9qSK+TLvw8wsBqn1j6pDggE5arOZzUzRK",
+    "t": 1437829673
+}
+```
+
+Example in Node.js:
+
+```js
+socket.on('open', function () {
+    var message = {
+        a: 'auth',
+        p: authTokenFromServer,
+        t: Math.floor(Date.now() / 1000) // #CloseEnough
+    };
+    socket.send(JSON.stringify(message));
+});
+```
+
+If your authentication was successful, you'll get an [`ack`](#) message back from the server.
+
+### chat
+
+Chat messages are a little more exciting, but also have a few more caveats to be aware of.
+
+```json
+{
+    "a": "chat",
+    "p": "Hello from the WebSocket! O/",
+    "t": 1437829673
+}
+```
+
+Note that chat is rate limited, and plug.dj will silently drop messages if you send too many too quickly. If you add a
+1-second interval between messages on your end, you should be safe. (This is what the PlugAPI library does.) Plug.dj's
+rate limiting actually isn't constant, so you can send messages a little more quickly if you use some sort of backoff
+algorithm. (The Plugged library uses a linear backoff that allows it to semi-reliably send over 5 messages per second.)
+
+You cannot send newline characters (`\n`) in your messages, and plug.dj will again silently drop your messages if you
+attempt to. Instead, split them up into multiple consecutive messages.
