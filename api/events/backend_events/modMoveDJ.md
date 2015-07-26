@@ -1,6 +1,6 @@
 # modMoveDJ message
 
-Event passed when a moderator moves a user in the waitlist.
+Event passed when a moderator moves a user in the wait list.
 
 ### Packet Example
 
@@ -11,8 +11,8 @@ Event passed when a moderator moves a user in the waitlist.
         'm': 'xxxxxx',	// Name of the moderator
         'mi': -1,       // ID of the moderator
         'u': 'xxxxxx',  // Name of the user that got moved
-        'o': -1,        // Old position in the waitlist
-        'n': -1,        // New position in the waitlist
+        'o': -1,        // Old position in the wait list
+        'n': -1,        // New position in the wait list
     },
     's': 'xxxx'         // Room name
 }

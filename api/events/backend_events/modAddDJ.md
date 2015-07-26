@@ -1,6 +1,6 @@
 # modAddDJ message
 
-Event passed when a moderator adds a user to the waitlist.
+Event passed when a moderator adds a user to the wait list.
 
 
 ### Packet Example
@@ -9,7 +9,7 @@ Event passed when a moderator adds a user to the waitlist.
 {
     'a': 'modAddDJ',    // Event name
     'p': {
-        'm': 'xxxxxx',	// Should the waitlist cycle?
+        'm': 'xxxxxx',	// Should the wait list cycle?
         'mi': -1,       // ID of the moderator
         't': 'xxxxxx'   // Name of the user that got added
     },
