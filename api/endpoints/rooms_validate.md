@@ -1,6 +1,9 @@
-# rooms/validate Endpoint
+# rooms/validate/:name Endpoint
 
-The rooms/validate endpoint escapes a room's name into an URL conform string.
+The rooms/validate/:name endpoint escapes a room's name into an URL conform string.
+
+**Note**: While this is also used to remove special characters, not all are removed, i.e. some like '**<**' or '**>**' will
+just be converted to '**lt**' and '**gt**'
 
 ### Endpoint
 
