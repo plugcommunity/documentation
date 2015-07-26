@@ -6,15 +6,23 @@ The mutes endpoint modifies the current mutes.
 with a requestError message.
 
 **Reason**: The reason member is set as a single number which represent the following reasons:
+
 **1**: (VIOLATING_COMMUNITY_RULES) User violated the community rules
+
 **2**: (VERBAL_ABUSE) User was harsh to other community members
+
 **3**: (SPAMMING) User spammed the chat
+
 **4**: (OFFENSIVE_LANGUAGE) User was using offensive language
+
 **5**: (NEGATIVE_ATTITUDE) User was having a negative attitude towards others
 
 **MuteDuration**: The duration member can have the following values:
+
 **s**: User is muted for 15 minutes
+
 **m**: User is muted for 30 minutes
+
 **l**: User is muted for 45 minutes
 
 ### Endpoint
