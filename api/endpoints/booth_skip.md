@@ -15,6 +15,7 @@ _POST_
 ### Parameters
 
 **userID**: ID of the DJ you want to skip
+
 **historyID**: History ID of the playback 
 
 ```json

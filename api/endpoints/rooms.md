@@ -5,6 +5,7 @@ The rooms endpoint retrieves all rooms in a sorted list ordered by the amount of
 ### Endpoint
 
 **rooms**
+
 **rooms?q=:query&page=:page&limit=:limit**
 
 ### available verbs
@@ -14,7 +15,9 @@ _GET_, _POST_
 ### Parameters
 
 **q**: Search query used to filter the rooms
+
 **page**: Pagination, starts at page 1
+
 **limit**: The amount of rooms that should be shown per page
 
 ### Data returned for _GET_
@@ -46,6 +49,7 @@ _GET_, _POST_
 ### Parameters for _POST_
 
 **name**: Name of your new community
+
 **private**: Should this community be private? (this means that the room won't be listed in the public listing)  
 
 ```json

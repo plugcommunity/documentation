@@ -13,7 +13,9 @@ _POST_
 ### Parameters
 
 **csrf**: Cross Site Request Forgery token
+
 **email**: Your email
+
 **password**: Your password
 
 ```json

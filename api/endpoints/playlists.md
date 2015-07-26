@@ -5,6 +5,7 @@ The playlists endpoint retrieves or modifies your playlists.
 ### Endpoint
 
 **playlists**
+
 **playlists/:id**
 
 ### available verbs
@@ -40,6 +41,7 @@ Insufficient permissions
 ### Parameters for _POST_
 
 **name**: Name of the new playlist
+
 **media**: Array of media objects used to fill the playlist
 
 ```json

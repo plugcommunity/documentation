@@ -13,7 +13,9 @@ _PUT_
 ### Parameters
 
 **id**: ID of the media you want to update
+
 **author**: Author of the media
+
 **title**: Title of the media
 
 ```json

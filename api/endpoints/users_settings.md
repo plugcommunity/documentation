@@ -12,15 +12,24 @@ _PUT_
 
 ### Parameters
 
-**videoOnly**: Should only the video be shown?¶
-**chatTimestamps**: Format of the timestamp (**12** or **24**)¶
-**emoji**: Should emojis be shown?¶
-**tooltips**: Should tooltips be shown?¶
-**chatImages**: Should chat images be shown?¶
-**notifyDJ**: Should DJ notifications be shown?¶
-**notifyScore**: Should score notifications be shown?¶
-**notifyFriendJoin**: Should friend join notifications be shown?¶
-**nsfw**: Should rooms that are flagged as not safe for work be listed?¶
+**videoOnly**: Should only the video be shown?
+
+**chatTimestamps**: Format of the timestamp (**12** or **24**)
+
+**emoji**: Should emojis be shown?
+
+**tooltips**: Should tooltips be shown?
+
+**chatImages**: Should chat images be shown?
+
+**notifyDJ**: Should DJ notifications be shown?
+
+**notifyScore**: Should score notifications be shown?
+
+**notifyFriendJoin**: Should friend join notifications be shown?
+
+**nsfw**: Should rooms that are flagged as not safe for work be listed?
+
 **friendAvatarsOnly**: Should only the avatars of your friends be shown?
 
 ```json

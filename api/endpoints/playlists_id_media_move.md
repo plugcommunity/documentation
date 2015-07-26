@@ -13,6 +13,7 @@ _PUT_
 ### Parameters
 
 **ids**: Array of media IDs which represent the media you want to move
+
 **beforeID**: ID of the media where the media should be inserted
 
 ```json

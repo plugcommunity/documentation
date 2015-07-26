@@ -13,7 +13,9 @@ _POST_
 ### Parameters
 
 **name**: Name of your room
+
 **description**: Description of your room
+
 **welcome**: Welcome message of your room
 
 ```json

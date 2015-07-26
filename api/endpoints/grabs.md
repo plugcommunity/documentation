@@ -13,6 +13,7 @@ _POST_
 ### Parameters
 
 **playlistID**: ID of the playlist you want to add the song to
+
 **historyID**: ID of the playback
 
 ```json
