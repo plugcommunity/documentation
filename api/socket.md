@@ -27,8 +27,8 @@ These examples will assume JavaScript and Node.js, but the principles apply to e
     having trouble connecting, check the documentation of your library on how to set the `Origin` header properly.
 
  1. Second, once the connection is complete, you need to send an authentication token to prove that you're you. You can
-    obtain a token from the [`auth/token`](#) endpoint. Sending this token to the server is described in
-    [Sending Messages: `auth`](#).
+    obtain a token from the [`auth/token`](./endpoints/auth_token.md) endpoint. Sending this token to the server is
+    described in [Sending Messages: `auth`](#auth).
 
 Once you are connected and authenticated, you can start sending and receiving messages.
 
@@ -125,7 +125,7 @@ The "auth" message is the first message you should send to the socket, and you s
 connection is set up. Plug.dj won't wait for you for long, so you can't open the socket and send your message ten
 seconds later.
 
-The parameter to this message is the auth token you got from the [`auth/token`](#) endpoint.
+The parameter to this message is the auth token you got from the [`auth/token`](./endpoints/auth_token.md) endpoint.
 
 An example auth message could look like:
 
@@ -150,7 +150,8 @@ socket.on('open', function () {
 });
 ```
 
-If your authentication was successful, you'll get an [`ack`](#) message back from the server.
+If your authentication was successful, you'll get an [`ack`](./events/backend_events/ack.md) message back from the
+server.
 
 ### chat
 
