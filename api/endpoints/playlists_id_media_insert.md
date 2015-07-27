@@ -13,6 +13,7 @@ _POST_
 ### Parameters
 
 **media**: Media objects you want to insert
+
 **append**: Should the array be concatenated at the end of the playlist?
 
 ```json

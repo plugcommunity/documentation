@@ -53,7 +53,9 @@ _GET_, _POST_
 ### Parameters for _POST_
 
 **userID**: ID of the user you want to mute
+
 **reason**: The reason of the mute
+
 **duration**: The duration of the mute
 
 ```json

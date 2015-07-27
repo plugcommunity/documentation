@@ -1,28 +1,22 @@
-# rooms/update Endpoint
+# users/badge Endpoint
 
-The rooms/update endpoint enables you to partially change the metadata of your room.
+The users/badge endpoint lets you change your current badge.
 
 ### Endpoint
 
-**rooms/update**
+**users/badge**
 
 ### available verbs
 
-_POST_
+_PUT_
 
 ### Parameters
 
-**name**: Name of your room
-
-**description**: Description of your room
-
-**welcome**: Welcome message of your room
+**id**: ID of the badge you want to use
 
 ```json
 {
-    "name": "xxx",
-    "description": "xxx",
-    "welcome": "xxx",
+    "id": "xxx"
 }
 ```
 
@@ -38,11 +32,11 @@ Insufficient permissions
 }
 ```
 
-name, description or welcome is missing
+id is missing
 ```json
 {
     "data": [
-        "xxxxxxxx is required"
+        "id is required"
     ],
     "status": "requestError",
 }

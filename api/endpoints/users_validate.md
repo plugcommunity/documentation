@@ -1,13 +1,13 @@
-# rooms/validate/:name Endpoint
+# users/validate/:name Endpoint
 
-The rooms/validate/:name endpoint escapes a room's name into an URL conform string.
+The users/validate/:name endpoint escapes a user's name into an URL conform string.
 
 **Note**: While this is also used to remove special characters, not all are removed, i.e. some like '**<**' or '**>**' will
 just be converted to '**lt**' and '**gt**'
 
 ### Endpoint
 
-**rooms/validate/:name**
+**users/validate/:name**
 
 ### available verbs
 
@@ -15,7 +15,7 @@ _GET_
 
 ### Parameters
 
-**name**: Name of the room
+**name**: Name of the user
 
 ### Possible error messages
 
@@ -34,7 +34,7 @@ Insufficient permissions (not being logged in)
 ```js
 {
     'data': [{                  // Contains the requested data
-        'slug': 'xxx'           // URL conform representation of the room's name
+        'slug': 'xxx'           // URL conform representation of the user's name
     }],
     'meta': {},
     'status': 'ok',

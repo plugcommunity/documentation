@@ -22,6 +22,7 @@ a bunch of chat messages without artifically slowing the amount of requests down
 | Auth Login                | "[auth/login]                    (/api/endpoints/auth_login.md)"                         |
 | Auth Reset                | "[auth/reset/me]                 (/api/endpoints/auth_reset_me.md)"                      |
 | Auth Session              | "[auth/session]                  (/api/endpoints/auth_session.md)"                       |
+| Auth Token                | "[auth/token]                    (/api/endpoints/auth_token.md)"                         |
 | Bans                      | "[bans]                          (/api/endpoints/bans.md)"                               |
 | Bans Add                  | "[bans/add]                      (/api/endpoints/bans_add.md)"                           |
 | Booth                     | "[booth]                         (/api/endpoints/booth.md)"                              |
@@ -40,6 +41,7 @@ a bunch of chat messages without artifically slowing the amount of requests down
 | Ignores                   | "[ignores]                       (/api/endpoints/ignores.md)"                            |
 | Mutes                     | "[mutes]                         (/api/endpoints/mutes.md)"                              |
 | News                      | "[news]                          (/api/endpoints/news.md)"                               |
+| Notifications             | "[notifications]                 (/api/endpoints/notifications.md)"                      |
 | Playlists                 | "[playlists]                     (/api/endpoints/playlists.md)"                          |
 | Playlists Activate        | "[playlists/:id/activate]        (/api/endpoints/playlists_id_activate.md)"              |
 | Playlists Media Delete    | "[playlists/:id/media/delete]    (/api/endpoints/playlists_id_media_delete.md)"          |
@@ -67,11 +69,14 @@ a bunch of chat messages without artifically slowing the amount of requests down
 | Store Purchase Username   | "[store/purchase/username]       (/api/endpoints/store_purchase_username.md)"            |
 | Users                     | "[users]                         (/api/endpoints/users.md)"                              |
 | Users Avatar              | "[users/avatar]                  (/api/endpoints/users_avatar.md)"                       |
+| Users Badge               | "[users/badge]                   (/api/endpoints/users_badge.md)"                        |
 | Users Bulk                | "[users/bulk]                    (/api/endpoints/users_bulk.md)"                         |
 | Users Language            | "[users/language]                (/api/endpoints/users_language.md)"                     |
 | Users Me                  | "[users/me]                      (/api/endpoints/users_me.md)"                           |
 | Users Me History          | "[users/me/history]              (/api/endpoints/users_me_history.md)"                   |
 | Users Me Transactions     | "[users/me/transactions]         (/api/endpoints/users_me_transactions.md)"              |
+| Users Settings            | "[users/settings]                (/api/endpoints/users_settings.md)"                     |
+| Users Validate            | "[users/validate]                (/api/endpoints/users_validate.md)"                     |
 | Votes                     | "[votes]                         (/api/endpoints/votes.md)"                              |
 
 *Ordered by Endpoint Name^

@@ -15,6 +15,7 @@ _POST_
 ### Parameters
 
 **userID**: ID of the user you want to move
+
 **position**: The new position of the user
 
 **Note**: The waitlist has a zero based index, so to move the user to the desired position you have to think 

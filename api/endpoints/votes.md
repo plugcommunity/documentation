@@ -13,6 +13,7 @@ _POST_
 ### Parameters
 
 **direction**: Literally the direction of your vote and as such 1 is interpreted as woot and -1 as meh
+
 **historyID**: Internal GUID v4 history ID of the current playback
 
 ```json

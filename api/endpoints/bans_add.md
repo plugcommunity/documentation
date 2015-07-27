@@ -36,7 +36,9 @@ _POST_
 ### Parameters
 
 **userID**: ID of the user you want to move
+
 **reason**: The reason why the user got banned
+
 **duration**: The duration of the ban
 
 ```json

@@ -5,6 +5,7 @@ The store/products endpoint lists all available products in the store.
 ### Endpoint
 
 **store/products**
+
 **store/products/:type/:category**
 
 ### available verbs
@@ -16,6 +17,7 @@ _GET_
 **Note**: Not setting these will retrieve the full list of items available
 
 **type**: Same as the type member of the store item
+
 **category**: Same as the category member of the store item
 
 ### Possible error messages

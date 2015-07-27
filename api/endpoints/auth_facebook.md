@@ -15,7 +15,9 @@ _POST_
 ### Parameters
 
 **csrf**: Cross Site Request Forgery token
+
 **accessToken**: Access token given by facebook.com
+
 **userID**: userID given by facebook.com
 
 ```json

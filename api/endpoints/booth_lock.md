@@ -15,6 +15,7 @@ _PUT_
 ### Parameters
 
 **isLocked**: Should the waitlist be locked?
+
 **removeAllDJs**: Should all DJs be removed from the waitlist?
 
 ```json
