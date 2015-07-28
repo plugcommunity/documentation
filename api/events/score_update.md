@@ -10,9 +10,9 @@ Event name: API.SCORE_UPDATE
 
 ```js
 {
-    positive: 17, 
-    negative: 0, 
-    grabs: 0
+    'positive': 17, 
+    'negative': 0, 
+    'grabs': 0
 }
 ```
 

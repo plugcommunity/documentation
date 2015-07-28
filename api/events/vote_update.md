@@ -10,17 +10,17 @@ Event name: API.VOTE_UPDATE
 
 ```js
 {
-    vote: 1,
-    user: {
-        id: 0,
-        username: '',
-        avatarID: '',
-        language: 'en',
-        joined: undefined,
-        level: 1,
-        role: 0,
-        gRole: 0,
-        badge: undefined,
+    'vote': 1,
+    'user': {
+        'id': 0,
+        'username': '',
+        'avatarID': '',
+        'language': 'en',
+        'joined': undefined,
+        'level': 1,
+        'role': 0,
+        'gRole': 0,
+        'badge': undefined,
     }
 }
 ```
@@ -50,11 +50,11 @@ Event Name: "vote"
 
 ```js
 {
-    "a": "vote", 
-    "p": {
-        "i": 5113863,           // User ID
-        "v": 1                  // Value: (1 for woot -1 for meh)
+    'a': 'vote', 
+    'p': {
+        'i': 5113863,           // User ID
+        'v': 1                  // Value: (1 for woot -1 for meh)
     }, 
-    s": "thenightcoreclub"
+    's': 'thenightcoreclub'
 }
 ```

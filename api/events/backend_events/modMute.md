@@ -5,8 +5,11 @@ Event passed when a moderator mutes a user.
 **Note**: The mute duration offers you 4 different options:
 
 * **o**: None, the user is unmuted
+
 * **s**: Short, the user is muted for 15 minutes
+
 * **m**: Medium, the user is muted for 30 minutes
+
 * **l**: Long, the user is muted for 45 minutes
 
 ### Packet Example

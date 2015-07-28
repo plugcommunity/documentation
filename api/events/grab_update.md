@@ -10,16 +10,16 @@ Event name: API.GRAB_UPDATE
 
 ```js
 {
-    user: {
-        id: 0,
-        username: '',
-        avatarID: '',
-        language: 'en',
-        joined: undefined,
-        level: 1,
-        role: 0,
-        gRole: 0,
-        badge: undefined,
+    'user': {
+        'id': 0,
+        'username': 'xxx',
+        'avatarID': 'xxx',
+        'language': 'en',
+        'joined': undefined,
+        'level': 1,
+        'role': 0,
+        'gRole': 0,
+        'badge': undefined
     }
 }
 ```
