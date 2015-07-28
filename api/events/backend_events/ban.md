@@ -1,6 +1,6 @@
 # Ban message
 
-Event passed when a person is banned
+Event passed when you are banned from a room.
 
 **Note**: the ban duration offers you the following three options.
 
