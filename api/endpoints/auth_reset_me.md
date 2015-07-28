@@ -1,6 +1,6 @@
 # auth/reset/me Endpoint
 
-The auth/reset/me endpoint will invalidate your login.
+The auth/reset/me endpoint will send you a request to change your password via mail.
 
 ### Endpoint
 
