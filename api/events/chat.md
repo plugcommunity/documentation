@@ -7,6 +7,17 @@ moderation messages. "/me" or "/em" causes an "emote" event to be fired instead 
 
 Event name: API.CHAT
 
+### Example Listener
+
+```js
+
+API.on(API.CHAT, function(data){
+    //This will log the packet of the chat event
+    console.log(data);
+});
+
+```
+
 ### Packet Example
 
 And an example of the full event package looks like:
@@ -32,17 +43,6 @@ The sub value is a boolean of whether the user is a subscriber or not.
 
 The cid value is the chat ID, this is not a unique value as messages stack, it is comprised of the sender ID split with 
 a dash, and followed by the message number.
-
-### Example Listener
-
-```js
-
-API.on(API.CHAT, function(data){
-    //This will log the packet of the chat event
-    console.log(data);
-});
-
-```
 
 # Backend
 

@@ -6,6 +6,15 @@ Event emitted when a user grabs a track (Previously known as curated)
 
 Event name: API.GRAB_UPDATE
 
+### Example Listener
+
+```js
+API.on(API.GRAB_UPDATE, function(data){
+    //This will log the packet of the event
+    console.log(data);
+});
+```
+
 ### Packet Example
 
 ```js
@@ -25,15 +34,6 @@ Event name: API.GRAB_UPDATE
 ```
 
 Returns `Object.user` containing the user object of the person who 
-
-### Example Listener
-
-```js
-API.on(API.GRAB_UPDATE, function(data){
-    //This will log the packet of the event
-    console.log(data);
-});
-```
 
 # Backend
 

@@ -9,12 +9,10 @@ Event name: API.FRIEND_JOIN
 ### Example Listener
 
 ```js
-
 API.on(API.FRIEND_JOIN, function(data) {
     //This will log the packet of the chat event
     console.log(data);
 });
-
 ```
 
 ### Packet Example

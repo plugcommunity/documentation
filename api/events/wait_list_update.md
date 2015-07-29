@@ -6,6 +6,15 @@ This event happens when someone joins the wait list
 
 Event Constant: API.WAIT_LIST_UPDATE
 
+### Example Listener
+
+```js
+API.on(API.WAIT_LIST_UPDATE, function(data){
+    //This will log the packet of the event
+    console.log(data);
+});
+```
+
 ### Packet Example
 
 
@@ -26,15 +35,6 @@ Event Constant: API.WAIT_LIST_UPDATE
 ```
 
 Ordered array of users in the wait list.
-
-### Example Listener
-
-```js
-API.on(API.WAIT_LIST_UPDATE, function(data){
-    //This will log the packet of the event
-    console.log(data);
-});
-```
 
 # Backend
 

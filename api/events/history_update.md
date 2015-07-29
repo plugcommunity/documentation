@@ -4,10 +4,6 @@ This is a **frontend only** event. It is a result of the getHistory method, whic
 
 Event name: API.HISTORY_UPDATE
 
-### Packet Example
-
-(Please add)
-
 ### Example Listener
 
 ```js
@@ -16,3 +12,7 @@ API.on(API.HISTORY_UPDATE, function(data){
     console.log(data);
 });
 ```
+
+### Packet Example
+
+(Please add)

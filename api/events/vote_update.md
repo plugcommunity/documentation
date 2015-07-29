@@ -12,6 +12,14 @@ If you grab via the Song History window, you will not show up as grabbing the tr
 
 Event name: API.VOTE_UPDATE
 
+### Example Listener
+
+```js
+API.on(API.VOTE_UPDATE, function(data){
+    console.log(data);
+});
+```
+
 ### Packet Example
 
 ```js
@@ -39,14 +47,6 @@ Where vote is the value of the user vote:
 | -1         | Meh  |
 
 User is the user object of the person that voted.
-
-### Code Example
-
-```js
-API.on(API.VOTE_UPDATE, function(data){
-    console.log(data);
-});
-```
 
 # Backend
 

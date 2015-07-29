@@ -6,10 +6,6 @@ Event passed when a user leaves the room you are in.
 
 Event name: API.USER_LEAVE
 
-### Packet Example
-
-(Please add)
-
 ### Example Listener
 
 ```js
@@ -18,6 +14,10 @@ API.on(API.USER_LEAVE, function(data){
     console.log(data);
 });
 ```
+
+### Packet Example
+
+(Please add)
 
 # Backend
 

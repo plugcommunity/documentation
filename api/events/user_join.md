@@ -6,10 +6,6 @@ Event passed when a user joins the room.
 
 Event name: API.USER_JOIN
 
-### Packet Example
-
-(Please add)
-
 ### Example Listener
 
 ```js
@@ -18,6 +14,10 @@ API.on(API.USER_JOIN, function(data){
     console.log(data);
 });
 ```
+
+### Packet Example
+
+(Please add)
 
 # Backend
 

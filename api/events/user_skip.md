@@ -6,10 +6,6 @@ Event passed when the current DJ skips their song.
 
 Event name: API.USER_SKIP
 
-### Packet Example
-
-(Please add)
-
 ### Example Listener
 
 ```js
@@ -18,6 +14,10 @@ API.on(API.USER_SKIP, function(data){
     console.log(data);
 });
 ```
+
+### Packet Example
+
+(Please add)
 
 # Backend
 
