@@ -34,13 +34,15 @@ More ban information [here](/api/bans.md#variables).
 
 **bans**
 
+**bans/:userID**
+
 ### Method
 
-_GET_
+_GET_, _DELETE_
 
-### Possible error messages
+### Possible error messages for _GET_
 
-Insufficient permission
+Insufficient permissions
 
 ```json
 {
@@ -51,7 +53,7 @@ Insufficient permission
 }
 ```
 
-### Data returned
+### Data returned for _GET_
 
 ```js
 {
@@ -63,6 +65,34 @@ Insufficient permission
         'timestamp': 'xxx',     // Date when the ban became active
         'username': 'xxxx'      // Name of the user
     }],
+    'meta': {},
+    'status': 'ok',
+    'time': 'xx.xxxxxxxxxxx'
+}
+```
+
+### Parameters for _DELETE_
+
+**userID**: ID of the user you want to unban
+
+### Possible error messages for _DELETE_
+
+Insufficient permissions
+
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+### Data returned for _DELETE_
+
+```js
+{
+    'data': [],
     'meta': {},
     'status': 'ok',
     'time': 'xx.xxxxxxxxxxx'
