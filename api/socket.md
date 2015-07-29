@@ -48,7 +48,7 @@ socket.on('message', function (message) {
 
 ### The `h` Message
 
-The `h` message is literally just that&em;a packet containing one byte: `h`. Plug.dj occasionally sends these to make
+The `h` message is simply that, a packet containing a one character string: `h`. Plug.dj occasionally sends these to make
 sure that you're still alive. You don't have to respond to these packets at all, but you may want to keep track of them
 anyway. If you don't get an `h` message for a very long time, you're probably no longer connected properly to the socket
 server.
@@ -80,7 +80,7 @@ An example message could look like:
 We can see that an event message has three cryptically named properties: `a`, `p` and `s`.
 
  * The `a` property is short for "action", but is also referred to as "event" or "type". This tells you what the event
-   is all about. In the example, someone just `"vote"`d for a song.
+   is all about. In the example, someone just `"vote"`'d for a song.
  * The `p` property is short for "parameter". The contents of this property depend on the "action". In the example, it's
    an object with a user ID and a vote value, but it can also be a number for some messages, or even `undefined`. Refer
    to the [events](./events) and [backend_events](./events/backend_events) pages for detailed documentation on every
@@ -119,7 +119,7 @@ you should divide by 1000 first: `Math.floor(Date.now() / 1000)`.) Theoretically
 close to the plug.dj server time using the `window._st` JavaScript variable, but it doesn't appear to affect much. For
 now, you're safe just using your local UNIX time--or even completely bogus values like your birthday.
 
-### auth
+### "auth"
 
 The "auth" message is the first message you should send to the socket, and you should send it _immediately_ when the
 connection is set up. Plug.dj won't wait for you for long, so you can't open the socket and send your message ten
@@ -153,7 +153,7 @@ socket.on('open', function () {
 If your authentication was successful, you'll get an [`ack`](./events/backend_events/ack.md) message back from the
 server.
 
-### chat
+### "chat"
 
 Chat messages are a little more exciting, but also have a few more caveats to be aware of.
 

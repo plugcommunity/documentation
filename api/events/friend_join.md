@@ -17,6 +17,10 @@ API.on(API.FRIEND_JOIN, function(data) {
 
 ```
 
+### Packet Example
+
+(Please add)
+
 # Backend
 
 Event name: "friendJoin"

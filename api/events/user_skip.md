@@ -1,10 +1,14 @@
 # User Skipped Own Song
 
+Event passed when the current DJ skips their song.
+
 # Frontend
 
 Event name: API.USER_SKIP
 
 ### Packet Example
+
+(Please add)
 
 ### Example Listener
 
@@ -19,4 +23,20 @@ API.on(API.USER_SKIP, function(data){
 
 Event Name: "skip"
 
-### Example
+### Packet Example
+
+```js
+{
+    'a': 'skip',            // Event name
+    'p': -1,                // ID of the user
+    's': 'xxxx'             // Room name
+}
+```
+### Real life example
+```js
+{
+    'a': 'skip',
+    'p': 2348789,
+    's': 'loves-kpop'
+}
+```

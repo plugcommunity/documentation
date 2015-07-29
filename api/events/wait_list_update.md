@@ -4,9 +4,10 @@ This event happens when someone joins the wait list
 
 # Frontend
 
-Event Constant: API.WAI_TLST_UPDATE
+Event Constant: API.WAIT_LIST_UPDATE
 
-### Example
+### Packet Example
+
 
 ```js
 [
@@ -39,15 +40,25 @@ API.on(API.WAIT_LIST_UPDATE, function(data){
 
 Event name: "djListUpdate"
 
-``` js
+### Packet Example
+
+```js
 {
-	'a': 'djListUpdate', 
-	'p': [6124312, ... 6163797],
-	's': 'thenightcoreclub'
+    'a': 'djListUpdate',    // Event name
+    'p': [-1, -1],          // WaitList as an array of user IDs
+    's': 'xxxx'             // Room name
+}
+```
+### Real life example
+```js
+{
+    'a': 'djListUpdate',
+    'p': [2348789, 4930583],
+    's': 'loves-kpop'
 }
 ```
 
 'p' is an ordered list of the users in the wait list.
 
 Index 0 is position 1 when relayed back to the user, as there is no position "0" when you translate to a user 
-understandable language.
+understandable number, aka the first person in the wait list.

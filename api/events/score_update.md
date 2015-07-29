@@ -6,7 +6,7 @@ This is a **frontend only** event, where the value of the 'vote' and 'grabs' eve
 
 Event name: API.SCORE_UPDATE
 
-### Example
+### Packet Example
 
 ```js
 {

@@ -9,20 +9,20 @@ possible.
 | Event Name                | Link                                                                                          |
 |-----------------------    | -------------                                                                                 |
 | Ack                       | "[ack]                           (/api/events/backend_events/ack.md)"                         |
-| Advance                   | "[advance]                       (/api/events/backend_events/advance.md)"                     |
+| Advance                   | "[advance]                       (/api/events/advance.md#backend)"                            |
 | Ban                       | "[ban]                           (/api/events/backend_events/ban.md)"                         |
-| Chat                      | "[chat]                          (/api/events/backend_events/chat.md)"                        |
+| Chat                      | "[chat]                          (/api/events/chat.md#backend)"                               |
 | ChatDelete                | "[chatDelete]                    (/api/events/backend_events/chatDelete.md)"                  |
 | DJ List Cycle             | "[djListCycle]                   (/api/events/backend_events/djListCycle.md)"                 |
 | DJ List Locked            | "[djListLocked]                  (/api/events/backend_events/djListLocked.md)"                |
-| DJ List Update            | "[djListUpdate]                  (/api/events/backend_events/djListUpdate.md)"                |
+| DJ List Update            | "[djListUpdate]                  (/api/events/djListUpdate.md#backend)"                       |
 | Earn                      | "[earn]                          (/api/events/backend_events/earn.md)"                        |
 | Flood API                 | "[floodAPI]                      (/api/events/backend_events/floodAPI.md)"                    |
 | Flood Chat                | "[floodChat]                     (/api/events/backend_events/floodChat.md)"                   |
 | Friend Accept             | "[friendAccept]                  (/api/events/backend_events/friendAccept.md)"                |
 | Friend Request            | "[friendRequest]                 (/api/events/backend_events/friendRequest.md)"               |
 | Gifted                    | "[gifted]                        (/api/events/backend_events/gifted.md)"                      |
-| Grab                      | "[grab]                          (/api/events/backend_events/grab.md)"                        |
+| Grab                      | "[grab]                          (/api/events/grab.md#backend)"                               |
 | Kill Session              | "[killSession]                   (/api/events/backend_events/killSession.md)"                 |
 | Level Up                  | "[levelUp]                       (/api/events/backend_events/levelUp.md)"                     |
 | Mod Add DJ                | "[modAddDJ]                      (/api/events/backend_events/modAddDJ.md)"                    |
@@ -30,7 +30,7 @@ possible.
 | Mod Move DJ               | "[modMoveDJ]                     (/api/events/backend_events/modMoveDJ.md)"                   |
 | Mod Mute                  | "[modMute]                       (/api/events/backend_events/modMute.md)"                     |
 | Mod Remove DJ             | "[modRemoveDJ]                   (/api/events/backend_events/modRemoveDJ.md)"                 |
-| Mod Skip                  | "[modSkip]                       (/api/events/backend_events/modSkip.md)"                     |
+| Mod Skip                  | "[modSkip]                       (/api/events/mod_skip.md#backend)"                           |
 | Mod Staff                 | "[modStaff]                      (/api/events/backend_events/modStaff.md)"                    |
 | Name Changed              | "[nameChanged]                   (/api/events/backend_events/nameChanged.md)"                 |
 | Notify                    | "[notify]                        (/api/events/backend_events/notify.md)"                      |
@@ -43,10 +43,10 @@ possible.
 | Room Min Chat Level Update| "[roomMinChatLevelUpdate]        (/api/events/backend_events/roomMinChatLevelUpdate.md)"      |
 | Room Name Update          | "[roomNameUpdate]                (/api/events/backend_events/roomNameUpdate.md)"              |
 | Room Welcome Update       | "[roomWelcomeUpdate]             (/api/events/backend_events/roomWelcomeUpdate.md)"           |
-| Skip                      | "[skip]                          (/api/events/backend_events/skip.md)"                        |
-| User Join                 | "[userJoin]                      (/api/events/backend_events/userJoin.md)"                    |
-| User Leave                | "[userLeave]                     (/api/events/backend_events/userLeave.md)"                   |
+| Skip                      | "[skip]                          (/api/events/user_skip.md#backend)"                          |
+| User Join                 | "[userJoin]                      (/api/events/user_join.md#backend)"                          |
+| User Leave                | "[userLeave]                     (/api/events/user_leave.md#backend)"                         |
 | User Update               | "[userUpdate]                    (/api/events/backend_events/userUpdate.md)"                  |
-| Vote                      | "[vote]                          (/api/events/backend_events/vote.md)"                        |
+| Vote                      | "[vote]                          (/api/events/vote.md#backend)"                               |
 
 *Ordered by Event Name^

@@ -1,12 +1,18 @@
 # Vote Updates
 
-This event happens when a user votes using the woot or meh buttons (Or via the API)
+Event passed when a user votes for a song.
+
+This is usually done via the frontend, where the user clicks the `woot` or `meh` buttons.
+
+If you grab a song, it will automatically `woot` a track if you have not done so already. (Frontend)
+
+If you grab via the Song History window, you will not show up as grabbing the track.
 
 # Frontend
 
 Event name: API.VOTE_UPDATE
 
-### Example
+### Packet Example
 
 ```js
 {
@@ -46,15 +52,26 @@ API.on(API.VOTE_UPDATE, function(data){
 
 Event Name: "vote"
 
-### Example
+### Packet Example
 
 ```js
 {
-    'a': 'vote', 
+    'a': 'vote',            // Event name
     'p': {
-        'i': 5113863,           // User ID
-        'v': 1                  // Value: (1 for woot -1 for meh)
-    }, 
-    's': 'thenightcoreclub'
+        'i': -1,            // ID of the user
+        'v': 1,             // Direction of the vote (1 = woot; -1 = meh)
+    },
+    's': 'xxxx'             // Room name
+}
+```
+### Real life example
+```js
+{
+    'a': 'vote',
+    'p': {
+        'i': 234098,
+        'v': 1
+    },
+    's': 'loves-kpop'
 }
 ```

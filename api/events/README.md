@@ -3,7 +3,7 @@
 
 | Event Name            | Variable^                                                 | Backend Name |
 | ----------            | ---------                                                 | ------------ |
-| DJ Advance            | [API.ADVANCE](/api/events/advance.md)                     | "[advance](/api/events/dj_advance.md)" |
+| DJ Advance            | [API.ADVANCE](/api/events/advance.md)                     | "[advance](/api/events/advance.md)" |
 | Chat Messages         | [API.CHAT](/api/events/chat.md)                           | "[chat](/api/events/chat.md)" |
 | Chat (/) Commands     | [API.CHAT_COMMAND](/api/events/chat_commands.md)          | ~Frontend Only~ |
 | Friend Join           | [API.FRIEND_JOIN](/api/events/friend_join.md)             | ~Frontend Only~ |

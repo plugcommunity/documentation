@@ -15,7 +15,37 @@ API.on(API.ADVANCE, function(data){
 });
 ```
 
-### Code Example
+### Packet Example
+
+```js
+{
+    dj: {
+        id: 0,
+        username: '',
+        avatarID: '',
+        language: 'en',
+        joined: undefined,
+        level: 1,
+        role: 0,
+        gRole: 0,
+        badge: undefined
+    },
+    media: {                                    // Media object
+        'cid': 'xxx',                           // Media ID used on the originating website
+        'title': 'xxx',                         // Media title
+        'author': 'xxx',                        // Media author
+        'image': 'xxx',                         // Thumbnail (youtube) or Artwork (soundcloud)
+        'duration': 0,                          // Duration in seconds
+        'format': 1,                            // Media format (1 = youtube; 2 = soundcloud)
+        'id': -1                                // Internal media ID
+    },
+    lastPlay: {
+        dj: {UserObject},
+        media: {MediaObject},
+        score: {ScoreObject}
+    }
+}
+```
 
 # Backend
 

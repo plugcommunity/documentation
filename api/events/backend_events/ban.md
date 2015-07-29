@@ -2,13 +2,13 @@
 
 Event passed when you are banned from a room.
 
-**Note**: the ban duration offers you the following three options.
+**Note**: the ban duration offers you the following three options:
 
 * **h**: Banned for an hour
 
 * **d**: Banned for a day
 
-* **f**: Banned for ever
+* **f**: Banned forever
 
 ### Example
 

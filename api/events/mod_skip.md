@@ -1,10 +1,10 @@
-# Moderator Skipped The Song
+# Moderator Skip
+
+Event passed when a moderator skips the current song.
 
 # Frontend
 
 Event name: API.MOD_SKIP
-
-### Packet Example
 
 ### Example Listener
 
@@ -15,8 +15,35 @@ API.on(API.MOD_SKIP, function(data){
 });
 ```
 
+### Packet Example
+
+(Please add)
+
 # Backend
 
 Event Name: "modSkip"
 
-### Example
+### Packet Example
+
+```js
+{
+    'a': 'modSkip',     // Event name
+    'p': {
+        'm': 'xxxxxx',  // Name of the moderator
+        'mi': -1        // ID of the moderator
+    },
+    's': 'xxxx'         // Room name
+}
+```
+### Real life example
+```js
+{
+    'a': 'modSkip',
+    'p': {
+        'm': 'SooYou',
+        'mi': 3865819
+    },
+    's': 'loves-kpop'
+}
+```
+
