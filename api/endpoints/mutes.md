@@ -29,9 +29,24 @@ with a requestError message.
 
 **mutes**
 
+**mutes/:userID**
+
 ### Methods
 
-_GET_, _POST_
+_GET_, _POST_, _DELETE_
+
+### Possible error messages for _GET_
+
+Insufficient permissions
+
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
 
 ### Data returned for _GET_
 
@@ -66,7 +81,7 @@ _GET_, _POST_
 }
 ```
 
-### Possible error messages
+### Possible error messages for _POST_
 
 Insufficient permissions
 ```json
@@ -89,6 +104,33 @@ userID or reason is missing
 ```
 
 ### Data returned for _POST_
+
+```js
+{
+    'data': [],
+    'meta': {},
+    'status': 'ok',
+    'time': 'xx.xxxxxxxxxxx'
+}
+```
+
+### Parameters for _DELETE_
+
+**userID**: ID of the user you want to unmute
+
+### Possible error messages for _DELETE_
+
+Insufficient permissions
+```json
+{
+    "data": [
+        "You are not authorized to access this resource."
+    ],
+    "status": "notAuthorized",
+}
+```
+
+### Data returned for _DELETE_
 
 ```js
 {
