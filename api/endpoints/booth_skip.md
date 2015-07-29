@@ -8,7 +8,7 @@ The booth/skip endpoint enables you to skip the current DJ.
 
 **booth/skip**
 
-### available verbs
+### Method
 
 _POST_
 

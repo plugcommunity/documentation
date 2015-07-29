@@ -25,11 +25,15 @@ The bans/add endpoint enables you to ban a user.
 
 **h**: User is banned for an hour
 
+More ban information [here](/api/bans.md#variables).
+
+
+
 ### Endpoint
 
 **bans/add**
 
-### available verbs
+### Method
 
 _POST_
 

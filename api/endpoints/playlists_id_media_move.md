@@ -6,7 +6,7 @@ The playlists/:id/media/move endpoint lets you move media objects to another ind
 
 **playlists/:id/media/move**
 
-### available verbs
+### Method
 
 _PUT_
 

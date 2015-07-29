@@ -6,7 +6,7 @@ The playlists/:id/media/delete endpoint lets you delete media objects.
 
 **playlists/:id/media/delete**
 
-### available verbs
+### Method
 
 _POST_
 

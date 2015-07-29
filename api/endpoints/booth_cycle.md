@@ -8,7 +8,7 @@ The booth/cycle endpoint enables you to decide whether the waitlist should cycle
 
 **booth/cycle**
 
-### available verbs
+### Method
 
 _PUT_
 

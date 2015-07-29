@@ -6,7 +6,7 @@ The playlists/:id/activate endpoint enables you to activate a playlist as the on
 
 **playlists/:id/activate**
 
-### available verbs
+### Method
 
 _PUT_
 

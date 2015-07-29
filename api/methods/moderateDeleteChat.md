@@ -10,4 +10,4 @@ Deletes the chat message, if you have [permission](/api/roles.md).
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+[https://plug.dj/_/](/api/endpoints/chat_cid.md)

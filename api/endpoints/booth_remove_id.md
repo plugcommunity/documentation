@@ -8,7 +8,7 @@ The booth/remove/:id endpoint lets you remove a user from the waitlist.
 
 **booth/remove/:id**
 
-### available verbs
+### Method
 
 _DELETE_
 

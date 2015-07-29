@@ -2,25 +2,13 @@
 
 The staff/update endpoint enables you to update the role of a user in your room.
 
-**Note**: There's five roles for the user
-
-* **0**: None, just a regular user
-
-* **1**: ResidentDJ, can lock the waitlist
-
-* **2**: Bouncer, can delete chat messages, remove DJs, force skip and ban people
-
-* **3**: Manager, can everything except removing co hosts and managers as well as editing the room meta
-
-* **4**: Co-Host, can everything except removing co hosts
-
-* **5**: Host, owner status 
+You can view information on staff roles, [here](/api/roles.md).
 
 ### Endpoint
 
 **staff/update**
 
-### available verbs
+### Method
 
 _POST_
 

@@ -6,7 +6,7 @@ The users/avatar endpoint enables you to change your avatar.
 
 **users/avatar**
 
-### available verbs
+### Method
 
 _PUT_
 

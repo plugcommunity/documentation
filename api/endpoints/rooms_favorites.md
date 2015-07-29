@@ -8,7 +8,7 @@ The rooms/favorites endpoint requests metadata or modifies your favorite rooms l
 **rooms/favorites?page=:page&limit=:limit**
 **rooms/favorites/:slug**
 
-### available verbs
+### Methods
 
 _GET_, _POST_, _DELETE_
 

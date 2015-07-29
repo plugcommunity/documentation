@@ -10,4 +10,4 @@ Adds the specified user to the wait list.
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+[https://plug.dj/_/](/api/endpoints/booth_add.md)

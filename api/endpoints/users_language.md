@@ -6,7 +6,7 @@ The users/language endpoint enables you to change your language settings.
 
 **users/language**
 
-### available verbs
+### Method
 
 _PUT_
 

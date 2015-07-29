@@ -6,7 +6,7 @@ The friends/invites endpoint will retrieve all of the friend invites you receive
 
 **friends/invites**
 
-### available verbs
+### Method
 
 _GET_
 

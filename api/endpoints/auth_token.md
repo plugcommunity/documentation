@@ -8,7 +8,7 @@ The auth/token endpoint retrieves your ID token.
 
 **auth/token**
 
-### available verbs
+### Method
 
 _GET_
 

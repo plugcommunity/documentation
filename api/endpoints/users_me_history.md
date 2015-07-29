@@ -6,7 +6,7 @@ The users/me/history endpoint retrieves a sorted list of songs you have played i
 
 **users/me/history**
 
-### available verbs
+### Method
 
 _GET_
 

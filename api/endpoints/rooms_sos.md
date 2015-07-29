@@ -8,7 +8,7 @@ The rooms/sos endpoint enables you to send an emergency ticket to the plug staff
 
 **rooms/sos**
 
-### available verbs
+### Method
 
 _POST_
 

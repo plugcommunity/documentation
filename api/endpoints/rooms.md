@@ -8,7 +8,7 @@ The rooms endpoint retrieves all rooms in a sorted list ordered by the amount of
 
 **rooms?q=:query&page=:page&limit=:limit**
 
-### available verbs
+### Methods
 
 _GET_, _POST_
 

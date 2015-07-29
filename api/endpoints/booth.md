@@ -6,7 +6,7 @@ The booth endpoint enables you to join (_POST_) or leave (_DELETE_) the waitlist
 
 **booth**
 
-### available verbs
+### Methods
 
 _POST_, _DELETE_
 

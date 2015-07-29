@@ -8,7 +8,7 @@ The booth/add endpoint enables you to add a user to the waitlist.
 
 **booth/add**
 
-### available verbs
+### Method
 
 _POST_
 

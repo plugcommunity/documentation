@@ -6,7 +6,7 @@ The booth/skip/me endpoint enables you to skip yourself as the DJ.
 
 **booth/skip/me**
 
-### available verbs
+### Method
 
 _POST_
 

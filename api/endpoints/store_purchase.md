@@ -6,7 +6,7 @@ The store/purchase endpoint enables you to buy items from the store.
 
 **store/purchase**
 
-### available verbs
+### Method
 
 _POST_
 

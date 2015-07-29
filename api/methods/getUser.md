@@ -28,4 +28,4 @@ API.getUser();
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+[https://plug.dj/_/](/api/endpoints/users_bulk.md)

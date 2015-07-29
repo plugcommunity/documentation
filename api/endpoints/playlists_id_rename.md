@@ -6,7 +6,7 @@ The playlists/:id/rename endpoint enables you to rename a playlist.
 
 **playlists/:id/rename**
 
-### available verbs
+### Method
 
 _PUT_
 

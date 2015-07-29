@@ -6,7 +6,7 @@ The rooms/join endpoint enables you to join a room.
 
 **rooms/join**
 
-### available verbs
+### Method
 
 _POST_
 

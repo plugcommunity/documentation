@@ -26,4 +26,4 @@ API.getHosts();
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+[https://plug.dj/_/](/api/endpoints/staff.md)

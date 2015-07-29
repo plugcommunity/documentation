@@ -6,7 +6,7 @@ The friends endpoint will retrieve all of your friends or adds a user as a frien
 
 **friends**
 
-### available verbs
+### Methods
 
 _GET_, _POST_
 

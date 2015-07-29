@@ -6,7 +6,7 @@ The users endpoint retrieves the data about a specific user.
 
 **users/:id**
 
-### available verbs
+### Method
 
 _GET_
 

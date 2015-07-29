@@ -6,7 +6,7 @@ The ignores endpoint retrieves or modifies your ignores.
 
 **ignores**
 
-### available verbs
+### Methods
 
 _GET_, _POST_
 

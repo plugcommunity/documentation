@@ -6,7 +6,7 @@ The playlists/:id/media/update endpoint lets you update the metadata of a media 
 
 **playlists/:id/media/update**
 
-### available verbs
+### Method
 
 _PUT_
 

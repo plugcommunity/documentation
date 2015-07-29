@@ -1,8 +1,10 @@
-# Get Banned Users
+# Banning Users
 
-Returns an array containing the of banned users.
 
-Must be manager or above, must have clicked the banned user list tab at least once since loading the page.
+Banning users is to remove them forcefully from the room.
+
+### Variables
+
 
 **Reason**: The reason member is set as a single number which represent the following reasons:
 
@@ -16,6 +18,8 @@ Must be manager or above, must have clicked the banned user list tab at least on
 
 **5**: (NEGATIVE_ATTITUDE) User was having a negative attitude towards others
 
+
+
 **BanDuration**: The duration member can have the following values:
 
 **f**: User is banned permanently
@@ -24,27 +28,15 @@ Must be manager or above, must have clicked the banned user list tab at least on
 
 **h**: User is banned for an hour
 
-### Code
+You can view the frontend constants [here](/api/constants.md)
 
-```js
-API.getBannedUsers();
-```
 
-### Response
+### Known Bugs
 
-```json
-[
-    {
-        "timestamp": TIMESTAMP, 
-        "id": 7120546, 
-        "username": "ce3e1d30", 
-        "moderator": "CakeBot", 
-        "reason": 1, 
-        "duration": "d"
-    }
-]
-```
+*Users continue talking after being banned due to socket delay
 
-### Endpoint
+### IP Bans
 
-[https://plug.dj/_/](/api/endpoints/bans.md)
+plug.dj uses IP bans for spamming or otherwise malicious intent.
+
+These come in the form of short (15 minute) bans, and permanent bans.

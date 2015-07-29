@@ -1,6 +1,6 @@
 # auth/facebook Endpoint
 
-The auth/facebook endpoint logs you into the plug.dj service.
+The `auth/facebook` endpoint logs you into the plug.dj service.
 
 **Note**: This sets the **pw** member in your state data to false
 
@@ -8,7 +8,7 @@ The auth/facebook endpoint logs you into the plug.dj service.
 
 **auth/facebook**
 
-### available verbs
+### Method
 
 _POST_
 

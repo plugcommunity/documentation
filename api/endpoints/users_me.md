@@ -6,7 +6,7 @@ The users/me endpoint retrieves some data about yourself as well as notification
 
 **users/me**
 
-### available verbs
+### Method
 
 _GET_
 

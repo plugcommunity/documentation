@@ -8,7 +8,7 @@ The booth/lock endpoint enables you to decide whether the waitlist should be loc
 
 **booth/lock**
 
-### available verbs
+### Method
 
 _PUT_
 

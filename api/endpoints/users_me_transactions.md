@@ -6,7 +6,7 @@ The users/me/transactions endpoint retrieves the full list of your transactions 
 
 **users/me/transactions**
 
-### available verbs
+### Method
 
 _GET_
 

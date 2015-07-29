@@ -6,7 +6,7 @@ The playlists/:id/media endpoint retrieves all media objects in one of your play
 
 **playlists/:id/media**
 
-### available verbs
+### Method
 
 _GET_
 

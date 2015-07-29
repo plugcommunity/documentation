@@ -10,4 +10,4 @@ Forces a skip of the current song, if you have [permission](/api/roles.md).
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+[https://plug.dj/_/](/api/endpoints/booth_skip.md)

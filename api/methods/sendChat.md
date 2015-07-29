@@ -10,4 +10,4 @@ API.sendChat("Message data to send");
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+Sent through the [socket](/api/socket.md)

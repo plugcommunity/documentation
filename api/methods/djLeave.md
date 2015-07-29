@@ -10,4 +10,4 @@ API.djLeave();
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+[https://plug.dj/_/](/api/endpoints/booth.md)

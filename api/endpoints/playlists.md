@@ -8,7 +8,7 @@ The playlists endpoint retrieves or modifies your playlists.
 
 **playlists/:id**
 
-### available verbs
+### Methods
 
 _GET_, _POST_, _DELETE_
 

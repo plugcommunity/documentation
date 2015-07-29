@@ -6,7 +6,7 @@ The notifications/:id endpoint lets you remove a notification.
 
 **notifications/:id**
 
-### available verbs
+### Method
 
 _DELETE_
 

@@ -6,7 +6,7 @@ The profile/blurb endpoint enables you to change your profile message.
 
 **profile/blurb**
 
-### available verbs
+### Method
 
 _PUT_
 

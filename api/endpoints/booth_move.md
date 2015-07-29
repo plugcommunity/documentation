@@ -8,7 +8,7 @@ The booth/move endpoint enables you to move a user in the waitlist.
 
 **booth/move**
 
-### available verbs
+### Method
 
 _POST_
 

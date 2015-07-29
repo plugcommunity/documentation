@@ -6,7 +6,7 @@ The users/badge endpoint lets you change your current badge.
 
 **users/badge**
 
-### available verbs
+### Method
 
 _PUT_
 

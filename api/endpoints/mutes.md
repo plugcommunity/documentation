@@ -29,7 +29,7 @@ with a requestError message.
 
 **mutes**
 
-### available verbs
+### Methods
 
 _GET_, _POST_
 

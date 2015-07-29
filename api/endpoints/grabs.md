@@ -6,7 +6,7 @@ The grabs endpoint enables you to grabs a song and add it to a playlist.
 
 **grabs**
 
-### available verbs
+### Method
 
 _POST_
 

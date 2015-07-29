@@ -6,7 +6,7 @@ The users/bulk endpoint retrieves the data about several users.
 
 **users/bulk**
 
-### available verbs
+### Method
 
 _POST_
 

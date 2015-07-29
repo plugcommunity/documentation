@@ -8,7 +8,7 @@ The chat/:cid endpoint enables you to delete a chat message via the Chat ID (cid
 
 **chat/:cid**
 
-### available verbs
+### Method
 
 _DELETE_
 

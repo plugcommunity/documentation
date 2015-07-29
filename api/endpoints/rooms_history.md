@@ -6,7 +6,7 @@ The room history endpoint enables you to get the room's history.
 
 **rooms/history**
 
-### available verbs
+### Method
 
 _GET_
 

@@ -6,7 +6,7 @@ The auth/session endpoint enables you to log out of plug.
 
 **auth/session**
 
-### available verbs
+### Method
 
 _DELETE_
 

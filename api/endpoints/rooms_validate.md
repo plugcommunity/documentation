@@ -9,7 +9,7 @@ just be converted to '**lt**' and '**gt**'
 
 **rooms/validate/:name**
 
-### available verbs
+### Method
 
 _GET_
 

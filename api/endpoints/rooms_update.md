@@ -6,7 +6,7 @@ The rooms/update endpoint enables you to partially change the metadata of your r
 
 **rooms/update**
 
-### available verbs
+### Method
 
 _POST_
 

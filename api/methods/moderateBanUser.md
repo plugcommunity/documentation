@@ -12,4 +12,4 @@ Please see the [API constants](/api/constants.md) for the ban length values.
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+[https://plug.dj/_/](/api/endpoints/bans_add.md)

@@ -9,7 +9,7 @@ population count.
 
 **rooms/me**
 
-### available verbs
+### Method
 
 _GET_
 

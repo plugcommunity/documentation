@@ -6,7 +6,7 @@ The users/settings endpoint enables you to save your settings.
 
 **users/settings**
 
-### available verbs
+### Method
 
 _PUT_
 

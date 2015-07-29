@@ -2,25 +2,13 @@
 
 The staff endpoint requests all staff members of the room you are currently in.
 
-**Note**: There's five roles for the user
-
-* **0**: None, just a regular user
-
-* **1**: ResidentDJ, can lock the waitlist
-
-* **2**: Bouncer, can delete chat messages, remove DJs, force skip and ban people
-
-* **3**: Manager, can everything except removing co hosts and managers as well as editing the room meta
-
-* **4**: Co-Host, can everything except removing co hosts
-
-* **5**: Host, owner status 
+You can view information on staff roles, [here](/api/roles.md).
 
 ### Endpoint
 
 **staff**
 
-### available verbs
+### Method
 
 _GET_
 

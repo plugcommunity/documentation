@@ -6,7 +6,7 @@ The news endpoint retrieves a sorted feed from blog.plug.dj.
 
 **news**
 
-### available verbs
+### Method
 
 _GET_
 

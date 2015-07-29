@@ -10,4 +10,4 @@ Locks or unlocks the wait list, if you have [permission](/api/roles.md).
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+[https://plug.dj/_/](/api/endpoints/booth_lock.md)

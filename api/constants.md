@@ -1,5 +1,7 @@
 # API Constants
 
+For backend/ajax endpoints, use the value unless you have explicitly defined these variables in the left column.
+
 
 ### Staff Roles
 
@@ -22,6 +24,8 @@ To read more about how roles work, click [here](/api/roles.md)
 | API.BAN.HOUR | "h" |
 | API.BAN.DAY | "d" |
 | API.BAN.PERMA | "p" |
+
+More information on banning, [here](/api/bans.md)
 
 
 ### Mute Duration

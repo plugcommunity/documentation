@@ -6,7 +6,7 @@ The store/inventory endpoint lists all of your boughts items.
 
 **store/inventory**
 
-### available verbs
+### Method
 
 _GET_
 

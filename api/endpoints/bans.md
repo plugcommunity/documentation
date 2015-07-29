@@ -26,17 +26,22 @@ with a requestError status.
 
 **h**: User is banned for an hour
 
+More ban information [here](/api/bans.md#variables).
+
+
+
 ### Endpoint
 
 **bans**
 
-### available verbs
+### Method
 
 _GET_
 
 ### Possible error messages
 
-Insufficient permissions
+Insufficient permission
+
 ```json
 {
     "data": [

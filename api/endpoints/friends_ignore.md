@@ -6,7 +6,7 @@ The friends/ignore endpoint enables you to ignore a friend request.
 
 **friends/ignore**
 
-### available verbs
+### Method
 
 _PUT_
 

@@ -24,4 +24,4 @@ Returns `true` if user matches the role, else returns `false`.
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+Frontend check only, based on stored user information

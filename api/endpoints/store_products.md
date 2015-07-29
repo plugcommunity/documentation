@@ -8,7 +8,7 @@ The store/products endpoint lists all available products in the store.
 
 **store/products/:type/:category**
 
-### available verbs
+### Method
 
 _GET_
 

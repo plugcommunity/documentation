@@ -18,4 +18,4 @@ API.getVolume();
 
 ### Endpoint
 
-This is a frontend only resource.
+This is a frontend only resource, returning your volume from the DOM.

@@ -1,8 +1,7 @@
 ### Introduction
 
 The plug API is seperated into two systems, 
-[WebSocket](https://github.com/plugcommunity/documentation/tree/master/api/events) and 
-[REST](#).
+[WebSocket](https://github.com/plugcommunity/documentation/tree/master/api/events) and [REST](#).
 While the WebSocket part is used to communicate at real time (such as chat, booth advancement etc.), the REST API is 
 used to do everything that does not require a real time connection. While this certainly induces a bit of latency
 for each action, it is something that can be easily handled with.
@@ -10,9 +9,10 @@ for each action, it is something that can be easily handled with.
 
 ### Tips and tricks
 
-One thing to mention is that you can only send a limited amount of request in a certain timespan, if you overdo it 
-for a longer amount of time you'll be banned. This can certainly happen when you decide to to delete
-a bunch of chat messages without artifically slowing the amount of requests down.
+The API endpoints are rate limited. If you send too many requests in a given period of time, you will be temporarily
+[IP banned](/api/bans.md). This can happen when you spam the booth join, or any other endpoint.
+
+Some methods however, are white listed such as chat deleting, this is in order to prevent spam and other attacks.
 
 ### List of endpoints
 

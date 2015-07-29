@@ -10,4 +10,4 @@ Moves the position of the specified user, if you have [permission](/api/roles.md
 
 ### Endpoint
 
-[https://plug.dj/_/](/api/endpoints/.md)
+[https://plug.dj/_/](/api/endpoints/booth_move.md)

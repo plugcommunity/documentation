@@ -1,12 +1,12 @@
 # auth/reset/me Endpoint
 
-The auth/reset/me endpoint will send you a request to change your password via mail.
+The auth/reset/me endpoint will send you a request to change your password via email.
 
 ### Endpoint
 
 **auth/reset/me**
 
-### available verbs
+### Method
 
 _POST_
 

@@ -6,7 +6,7 @@ The store/purchase/username endpoint enables you to change your username.
 
 **store/purchase/username**
 
-### available verbs
+### Method
 
 _POST_
 

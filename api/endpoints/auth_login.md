@@ -6,7 +6,7 @@ The auth/login endpoint logs you into the plug.dj service.
 
 **auth/login**
 
-### available verbs
+### Method
 
 _POST_
 
@@ -38,7 +38,7 @@ CSRF token is invalid
 }
 ```
 
-Email or password aren't correct
+Email or password isn't correct
 ```json
 {
     "data": [],

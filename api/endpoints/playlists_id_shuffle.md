@@ -6,7 +6,7 @@ The playlists/:id/shuffle endpoint enables you to shuffle a playlist.
 
 **playlists/:id/shuffle**
 
-### available verbs
+### Method
 
 _PUT_
 

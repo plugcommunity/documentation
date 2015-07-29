@@ -6,7 +6,7 @@ The votes endpoint enables you to woot or meh the current media.
 
 **votes**
 
-### available verbs
+### Method
 
 _POST_
 
