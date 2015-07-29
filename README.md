@@ -39,13 +39,13 @@ patched or fixed.
 
 ### Contributors
 
-* Alex (thedark1337)
-* Henchman (hunchmun)
-* houdhakker2
-* IgorAntun
-* Marvin (xBytez)
-* René Kooi (goto-bus-stop)
-* SooYou
+* [Alex (thedark1337)]          (https://github.com/thedark1337)
+* [Henchman (hunchmun)]         (https://github.com/hunchmun)
+* [houdhakker2]                 (https://github.com/houdhakker2)
+* [IgorAntun]                   (https://github.com/IgorAntun)
+* [Marvin (xBytez)]             (https://github.com/xBytez)
+* [René Kooi (goto-bus-stop)]   (https://github.com/goto-bus-stop)
+* [SooYou]                      (https://github.com/SooYou)
 
 Thank you for making this project possible by contributing!
 
