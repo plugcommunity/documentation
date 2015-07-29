@@ -116,7 +116,7 @@ userID or reason is missing
 
 ### Parameters for _DELETE_
 
-**userID**: ID of the user you want to mute
+**userID**: ID of the user you want to unmute
 
 ### Possible error messages for _DELETE_
 
