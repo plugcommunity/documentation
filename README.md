@@ -23,9 +23,6 @@ the site any harm
 * Please use the **staging** branch, this way they can be edited before they go live. Only hot fixes should hit the
 master branch.
 
-This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
-[code-of-conduct]: http://todogroup.org/opencodeofconduct/#plugcommunity/therealhenchman@gmail.com
-
 ##### Content:
 
 * Do not expose bugs, hacks or exploits! Make a ticket over at [support](https://support.plug.dj), so that they can be 
