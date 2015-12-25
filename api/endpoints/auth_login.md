@@ -28,13 +28,23 @@ _POST_
 
 ### Possible error messages
 
-CSRF token is invalid
+CSRF token has expired
 ```json
 {
     "data": [
         "This CSRF token has expired."
     ],
     "status": "csrfTokenExpired",
+}
+```
+
+CSRF token is invalid
+```json
+{
+    "data": [
+        "This CSRF token is invalid."
+    ],
+    "status": "csrfTokenInvalid",
 }
 ```
 
