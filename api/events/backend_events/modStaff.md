@@ -2,7 +2,7 @@
 
 Event passed when a moderator sets a user as staff member.
 
-**Note**: There's five roles of which you can choose
+**Note**: There"s five roles of which you can choose
 
 * **0**: None, just a regular user
 
@@ -21,33 +21,33 @@ Event passed when a moderator sets a user as staff member.
 ### Packet Example
 
 ```js
-{
-    'a': 'modStaff',        // Event name
-    'p': {
-        'm': 'xxxxxx',	    // Name of the moderator
-        'mi': -1,           // ID of the moderator
-        'u': [{
-            'n': 'xxxxxx',  // Name of the user
-            'i': -1,        // ID of the user
-            'p': -1         // Their new role in the room
+[{
+    "a": "modStaff",        // Event name
+    "p": {
+        "m": "xxxxxx",	    // Name of the moderator
+        "mi": -1,           // ID of the moderator
+        "u": [{
+            "n": "xxxxxx",  // Name of the user
+            "i": -1,        // ID of the user
+            "p": -1         // Their new role in the room
         }]
     },
-    's': 'xxxx'             // Room name
-}
+    "s": "xxxx"             // Room name
+}]
 ```
 ### Real life example
 ```js
-{
-    'a': 'modStaff',        // Event name
-    'p': {
-        'm': 'kool_panda',  // Name of the moderator
-        'mi': 3865820,      // ID of the moderator
-        'u': [{
-            'n': 'SooYou',  // Name of the user
-            'i': 3865819,   // ID of the user
-            'p': 0          // Their new role in the room
+[{
+    "a": "modStaff",        // Event name
+    "p": {
+        "m": "kool_panda",  // Name of the moderator
+        "mi": 3865820,      // ID of the moderator
+        "u": [{
+            "n": "SooYou",  // Name of the user
+            "i": 3865819,   // ID of the user
+            "p": 0          // Their new role in the room
         }]
     },
-    's': 'loves-kpop'       // Room name
-}
+    "s": "loves-kpop"       // Room name
+}]
 ```

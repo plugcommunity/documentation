@@ -15,29 +15,29 @@ Event passed when a moderator mutes a user.
 ### Packet Example
 
 ```js
-{
-    'a': 'modMute',     // Event name
-    'p': {
-        'm': 'xxxxxx',	// Name of the moderator
-        'i': -1,        // ID of the user
-        't': 'xxxxxx',  // Name of the user that got muted
-        'r': -1,        // Reason of the mute
-        'd': 'x',       // Mute duration
+[{
+    "a": "modMute",     // Event name
+    "p": {
+        "m": "xxxxxx",	// Name of the moderator
+        "i": -1,        // ID of the user
+        "t": "xxxxxx",  // Name of the user that got muted
+        "r": -1,        // Reason of the mute
+        "d": "x",       // Mute duration
     },
-    's': 'xxxx'         // Room name
-}
+    "s": "xxxx"         // Room name
+}]
 ```
 ### Real life example
 ```js
-{
-    'a': 'modMute',
-    'p': {
-        'm': 'SooYou',
-        'i': 3865820,
-        't': 'kool_panda',
-        'r': 31,
-        'd': 'm'
+[{
+    "a": "modMute",
+    "p": {
+        "m": "SooYou",
+        "i": 3865820,
+        "t": "kool_panda",
+        "r": 31,
+        "d": "m"
     },
-    's': 'loves-kpop'
-}
+    "s": "loves-kpop"
+}]
 ```

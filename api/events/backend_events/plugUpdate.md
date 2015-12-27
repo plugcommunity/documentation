@@ -7,17 +7,17 @@ Event passed when plug gets an update.
 ### Packet Example
 
 ```js
-{
-    'a': 'plugUpdate',  // Event name
-    'p': {},
-    's': 'xxxx'         // Room name
-}
+[{
+    "a": "plugUpdate",  // Event name
+    "p": {},
+    "s": "xxxx"         // Room name
+}]
 ```
 ### Real life example
 ```js
-{
-    'a': 'plugUpdate',
-    'p': {},
-    's': 'loves-kpop'
-}
+[{
+    "a": "plugUpdate",
+    "p": {},
+    "s": "loves-kpop"
+}]
 ```
