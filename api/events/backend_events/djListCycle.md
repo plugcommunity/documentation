@@ -6,7 +6,7 @@ Event passed when a moderator decides whether the wait list should cycle or not.
 ### Packet Example
 
 ```js
-{
+[{
     "a": "djListCycle", // Event name
     "p": {
         "f": false,	    // Should the wait list cycle?
@@ -14,11 +14,11 @@ Event passed when a moderator decides whether the wait list should cycle or not.
         "mi": -1        // ID of the moderator
     },
     "s": "xxxx"         // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "djListCycle",
     "p": {
         "c": false,
@@ -26,5 +26,5 @@ Event passed when a moderator decides whether the wait list should cycle or not.
         "mi": 3865819
     },
     "s": "loves-kpop"
-}
+}]
 ```

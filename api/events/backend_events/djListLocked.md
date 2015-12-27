@@ -6,7 +6,7 @@ Event passed when a moderator decides whether the wait list should be locked or 
 ### Packet Example
 
 ```js
-{
+[{
     "a": "djListLocked",    // Event name
     "p": {
         "c": false,	        // Should the wait list be cleared?
@@ -15,11 +15,11 @@ Event passed when a moderator decides whether the wait list should be locked or 
         "mi": -1            // ID of the moderator
     },
     "s": "xxxx"             // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "djListLocked",
     "p": {
         "c": false,
@@ -28,5 +28,5 @@ Event passed when a moderator decides whether the wait list should be locked or 
         "mi": 3865819
     },
     "s": "loves-kpop"
-}
+}]
 ```

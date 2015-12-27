@@ -15,7 +15,7 @@ Event passed when a moderator mutes a user.
 ### Packet Example
 
 ```js
-{
+[{
     "a": "modMute",     // Event name
     "p": {
         "m": "xxxxxx",	// Name of the moderator
@@ -25,11 +25,11 @@ Event passed when a moderator mutes a user.
         "d": "x",       // Mute duration
     },
     "s": "xxxx"         // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "modMute",
     "p": {
         "m": "SooYou",
@@ -39,5 +39,5 @@ Event passed when a moderator mutes a user.
         "d": "m"
     },
     "s": "loves-kpop"
-}
+}]
 ```

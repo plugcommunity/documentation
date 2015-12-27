@@ -21,7 +21,7 @@ Event passed when a moderator sets a user as staff member.
 ### Packet Example
 
 ```js
-{
+[{
     "a": "modStaff",        // Event name
     "p": {
         "m": "xxxxxx",	    // Name of the moderator
@@ -33,11 +33,11 @@ Event passed when a moderator sets a user as staff member.
         }]
     },
     "s": "xxxx"             // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "modStaff",        // Event name
     "p": {
         "m": "kool_panda",  // Name of the moderator
@@ -49,5 +49,5 @@ Event passed when a moderator sets a user as staff member.
         }]
     },
     "s": "loves-kpop"       // Room name
-}
+}]
 ```

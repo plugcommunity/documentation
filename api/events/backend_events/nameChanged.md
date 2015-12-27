@@ -7,17 +7,17 @@ Event passed when your username is forcefully changed by plug.
 ### Packet Example
 
 ```js
-{
+[{
     "a": "nameChanged", // Event name
     "p": {},
     "s": "xxxx"         // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "nameChanged",
     "p": {},
     "s": "loves-kpop"
-}
+}]
 ```

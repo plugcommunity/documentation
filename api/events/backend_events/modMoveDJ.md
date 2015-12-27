@@ -5,7 +5,7 @@ Event passed when a moderator moves a user in the wait list.
 ### Packet Example
 
 ```js
-{
+[{
     "a": "modMoveDJ",   // Event name
     "p": {
         "m": "xxxxxx",	// Name of the moderator
@@ -15,11 +15,11 @@ Event passed when a moderator moves a user in the wait list.
         "n": -1,        // New position in the wait list
     },
     "s": "xxxx"         // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "modMoveDJ",
     "p": {
         "m": "SooYou",
@@ -29,5 +29,5 @@ Event passed when a moderator moves a user in the wait list.
         "n": 0
     },
     "s": "loves-kpop"
-}
+}]
 ```

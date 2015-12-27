@@ -13,7 +13,7 @@ Event passed when a moderator bans a user.
 ### Packet Example
 
 ```js
-{
+[{
     "a": "modBan",      // Event name
     "p": {
         "m": "xxxxxx",	// Name of the moderator
@@ -22,11 +22,11 @@ Event passed when a moderator bans a user.
         "d": "x"        // Duration of the ban
     },
     "s": "xxxx"         // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "modBan",
     "p": {
         "m": "SooYou",
@@ -35,5 +35,5 @@ Event passed when a moderator bans a user.
         "d": "h"
     },
     "s": "loves-kpop"
-}
+}]
 ```

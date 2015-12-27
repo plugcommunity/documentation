@@ -5,7 +5,7 @@ Event passed when a moderator removes a user from the wait list.
 ### Packet Example
 
 ```js
-{
+[{
     "a": "modRemoveDJ",   // Event name
     "p": {
         "m": "xxxxxx",	// Name of the moderator
@@ -14,11 +14,11 @@ Event passed when a moderator removes a user from the wait list.
         "d": false      // Was the user in the booth (DJing)?
     },
     "s": "xxxx"         // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "modRemoveDJ",
     "p": {
         "m": "SooYou",
@@ -27,5 +27,5 @@ Event passed when a moderator removes a user from the wait list.
         "d": false
     },
     "s": "loves-kpop"
-}
+}]
 ```

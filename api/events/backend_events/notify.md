@@ -5,7 +5,7 @@ Event passed when you receive a notification.
 ### Packet Example
 
 ```js
-{
+[{
     "a": "notify",          // Event name
     "p": {
         "action": "xxx",    // Type of the notification
@@ -14,11 +14,11 @@ Event passed when you receive a notification.
         "value": "x"        // Value carried with the notification
     },
     "s": "xxxx"             // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "notify",
     "p": {
         "action": "levelUp",
@@ -27,5 +27,5 @@ Event passed when you receive a notification.
         "value": "12"
     },
     "s": "loves-kpop"
-}
+}]
 ```

@@ -13,7 +13,7 @@ Event passed when you are banned from a room.
 ### Example
 
 ```js
-{
+[{
     "a": "ban",         // Event name
     "p": {
         "t": "ban",
@@ -22,11 +22,11 @@ Event passed when you are banned from a room.
     },
 
     "s": "dashboard"
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "ban",
     "p": {
         "t": "ban",
@@ -35,6 +35,6 @@ Event passed when you are banned from a room.
     },
 
     "s": "dashboard"
-}
+}]
 ```
 

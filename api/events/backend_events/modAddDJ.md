@@ -6,7 +6,7 @@ Event passed when a moderator adds a user to the wait list.
 ### Packet Example
 
 ```js
-{
+[{
     "a": "modAddDJ",    // Event name
     "p": {
         "m": "xxxxxx",	// Should the wait list cycle?
@@ -14,11 +14,11 @@ Event passed when a moderator adds a user to the wait list.
         "t": "xxxxxx"   // Name of the user that got added
     },
     "s": "xxxx"         // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "modAddDJ",
     "p": {
         "m": "SooYou",
@@ -26,5 +26,5 @@ Event passed when a moderator adds a user to the wait list.
         "t": "kool_panda"
     },
     "s": "loves-kpop"
-}
+}]
 ```
