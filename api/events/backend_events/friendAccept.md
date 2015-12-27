@@ -7,16 +7,16 @@ Event passed when a user accepts your friend request.
 
 ```js
 {
-    'a': 'friendAccept',    // Event name
-    'p': 'xxxxxx',          // Name of the user
-    's': 'xxxx'             // Room name
+    "a": "friendAccept",    // Event name
+    "p": "xxxxxx",          // Name of the user
+    "s": "xxxx"             // Room name
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'friendAccept',
-    'p': 'kool_panda',
-    's': 'loves-kpop'
+    "a": "friendAccept",
+    "p": "kool_panda",
+    "s": "loves-kpop"
 }
 ```

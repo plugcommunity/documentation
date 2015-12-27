@@ -6,22 +6,22 @@ Event passed when a staff member changes the minimum chat level.
 
 ```js
 {
-    'a': 'roomMinChatLevel',    // Event name
-    'p': {
-        'm': -1,                // Min chat level
-        'u': -1                 // ID of moderator
+    "a": "roomMinChatLevel",    // Event name
+    "p": {
+        "m": -1,                // Min chat level
+        "u": -1                 // ID of moderator
     }, 
-    's': 'xxxx'                 // Room name
+    "s": "xxxx"                 // Room name
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'roomMinChatLevel',
-    'p': {
-        'm': 2,
-        'u': 3865819
+    "a": "roomMinChatLevel",
+    "p": {
+        "m": 2,
+        "u": 3865819
     }, 
-    's': 'loves-kpop'
+    "s": "loves-kpop"
 }
 ```

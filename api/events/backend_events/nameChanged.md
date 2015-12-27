@@ -8,16 +8,16 @@ Event passed when your username is forcefully changed by plug.
 
 ```js
 {
-    'a': 'nameChanged', // Event name
-    'p': {},
-    's': 'xxxx'         // Room name
+    "a": "nameChanged", // Event name
+    "p": {},
+    "s": "xxxx"         // Room name
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'nameChanged',
-    'p': {},
-    's': 'loves-kpop'
+    "a": "nameChanged",
+    "p": {},
+    "s": "loves-kpop"
 }
 ```

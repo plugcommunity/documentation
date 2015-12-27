@@ -19,8 +19,8 @@ API.on(API.SCORE_UPDATE, function(data){
 
 ```js
 {
-    'positive': 17, 
-    'negative': 0, 
-    'grabs': 0
+    "positive": 17, 
+    "negative": 0, 
+    "grabs": 0
 }
 ```

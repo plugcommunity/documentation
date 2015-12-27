@@ -7,16 +7,16 @@ Event passed when your connection gets acknowledged by the websocket.
 
 ```js
 {
-    'a': 'ack',            // Event name
-    'p': 1,                // Is your connection working?
-    's': 'xxxx'            // Room name
+    "a": "ack",            // Event name
+    "p": 1,                // Is your connection working?
+    "s": "xxxx"            // Room name
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'ack',
-    'p': 1,
-    's': 'loves-kpop'
+    "a": "ack",
+    "p": 1,
+    "s": "loves-kpop"
 }
 ```

@@ -14,27 +14,27 @@ Event passed when you are banned from a room.
 
 ```js
 {
-    'a': 'ban',         // Event name
-    'p': {
-        't': 'ban',
-        'd': 'x',       // Duration
-        'r': -1         // Reason
+    "a": "ban",         // Event name
+    "p": {
+        "t": "ban",
+        "d": "x",       // Duration
+        "r": -1         // Reason
     },
 
-    's': 'dashboard'
+    "s": "dashboard"
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'ban',
-    'p': {
-        't': 'ban',
-        'd': 'h',
-        'r': 1
+    "a": "ban",
+    "p": {
+        "t": "ban",
+        "d": "h",
+        "r": 1
     },
 
-    's': 'dashboard'
+    "s": "dashboard"
 }
 ```
 

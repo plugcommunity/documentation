@@ -27,16 +27,16 @@ Event Name: "userLeave"
 
 ```js
 {
-    'a': 'userLeave',       // Event name
-    'p': -1,                // ID of the user
-    's': 'xxxx'             // Room name
+    "a": "userLeave",       // Event name
+    "p": -1,                // ID of the user
+    "s": "xxxx"             // Room name
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'userLeave',
-    'p': 2348789,
-    's': 'loves-kpop'
+    "a": "userLeave",
+    "p": 2348789,
+    "s": "loves-kpop"
 }
 ```

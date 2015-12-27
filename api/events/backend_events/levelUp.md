@@ -7,16 +7,16 @@ Event passed when you level up.
 
 ```js
 {
-    'a': 'levelUp',     // Event name
-    'p': 0,             // Is empty
-    's': 'xxxx'         // Room name
+    "a": "levelUp",     // Event name
+    "p": 0,             // Is empty
+    "s": "xxxx"         // Room name
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'levelUp',
-    'p': 12,
-    's': 'loves-kpop'
+    "a": "levelUp",
+    "p": 12,
+    "s": "loves-kpop"
 }
 ```

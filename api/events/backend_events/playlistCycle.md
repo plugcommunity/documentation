@@ -6,16 +6,16 @@ Event passed when your playlist cycles (you finish playing a song from your play
 
 ```js
 {
-    'a': 'playlistCycle',   // Event name
-    'p': -1,                // ID of activated playlist
-    's': 'xxxx'             // Room name
+    "a": "playlistCycle",   // Event name
+    "p": -1,                // ID of activated playlist
+    "s": "xxxx"             // Room name
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'playlistCycle',
-    'p': 329847,
-    's': 'loves-kpop'
+    "a": "playlistCycle",
+    "p": 329847,
+    "s": "loves-kpop"
 }
 ```

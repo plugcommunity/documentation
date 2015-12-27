@@ -9,22 +9,22 @@ The XP system is used to level up in plug.
 
 ```js
 {
-    'a': 'earn',        // Event name
-    'p': {
-        'xp': 0,	    // xp generated
-        'level': -1     // current level
+    "a": "earn",        // Event name
+    "p": {
+        "xp": 0,	    // xp generated
+        "level": -1     // current level
     },
-    's': 'xxxx'         // Room name
+    "s": "xxxx"         // Room name
 }
 ```
 ### Real life example
 ```js
 {
-    'a': 'earn',
-    'p': {
-        'xp': 386,
-        'level': 2
+    "a": "earn",
+    "p": {
+        "xp": 386,
+        "level": 2
     },
-    's': 'loves-kpop'
+    "s": "loves-kpop"
 }
 ```
