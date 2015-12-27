@@ -51,7 +51,7 @@ Event name: "chat"
 ### Packet Example
 
 ```js
-{
+[{
     "a": "chat",                        // Event name
     "p": {
         "message": "xxxxxxxxxxxxx",     // Message String
@@ -61,11 +61,11 @@ Event name: "chat"
         "sub": 0                        // Is the user a subscriber?
     },
     "s": "xxxx"                         // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "chat",
     "p": {
         "message": "example message",
@@ -75,7 +75,7 @@ Event name: "chat"
         "sub": 0
     },
     "s": "thenightcoreclub"
-}
+}]
 ```
 
 

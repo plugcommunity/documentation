@@ -54,7 +54,7 @@ Event Name: "advance"
 ### Packet Example
 
 ```js
-{
+[{
     "a": "advance",                                 // Event Name
     "p": {
         "c": -1,                                    // Current DJ
@@ -77,12 +77,12 @@ Event Name: "advance"
         "t": "2015-04-18 00:25:14.899831"           // Starting Timestamp
     }, 
     "s": "xxxxxx"                                   // Room Name
-}
+}]
 ```
 ### Real Example
 
 ```js
-{
+[{
     "a": "advance",                                 // Event Name
     "p": {
         "c": 3364259,                               // Current DJ
@@ -118,7 +118,7 @@ Event Name: "advance"
         "t": "2015-07-09 21:59:01.809993" 
     }, 
     "s": "xxxxxx"
-}    
+}]
 ```
 
 Format is an integer, using 1 for YouTube and 2 for SoundCloud.

@@ -26,7 +26,7 @@ Event Name: "userJoin"
 ### Packet Example
 
 ```js
-{
+[{
     "a": "userJoin",                // Event name
     "p": {                          // User object
         "avatarID": "xxx",          // AvatarID (e.g.: "base01")
@@ -43,11 +43,11 @@ Event Name: "userJoin"
         "sub": 0                    // Is the user a subscriber? (0 = false; 1 = true)
     },
     "s": "xxxx"                     // Room name
-}
+}]
 ```
 ### Real life example
 ```js
-{
+[{
     "a": "userJoin",
     "p": {
         "avatarID": "base01"
@@ -64,5 +64,5 @@ Event Name: "userJoin"
         "sub": 0
     },
     "s": "loves-kpop"        
-}
+}]
 ```

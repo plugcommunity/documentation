@@ -26,7 +26,7 @@ Event name: "friendJoin"
 ### Example
 ```js
 
-{
+[{
     "a":"chat",                                     // Event name
     "p":{                                   
         "avatarID": "base01",                       // Their AvatarID (e.g.: "base01")
@@ -42,5 +42,5 @@ Event name: "friendJoin"
         "username": "SooYou",                       // Their username
     },
     "s":"loves-kpop"                                // Room name
-}
+}]
 ```
