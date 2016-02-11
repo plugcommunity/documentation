@@ -50,7 +50,7 @@ Some methods however, are white listed such as chat deleting, this is in order t
 | Playlists Media Update    | "[playlists/:id/media/update]    (/api/endpoints/playlists_id_media_update.md)"          |
 | Playlists Rename          | "[playlists/:id/rename]          (/api/endpoints/playlists_id_rename.md)"                |
 | Playlists Shuffle         | "[playlists/:id/shuffle]         (/api/endpoints/playlists_id_shuffle.md)"               |
-| Playlists Media           | "[playlists/:id/media]           (/api/endpoints/playlists_id_media.md)"                 |
+| Playlists Media           | "[playlists/:id/media]           (/api/endpoints/playlists_media.md)"                    |
 | Profile Blurb             | "[profile/blurb]                 (/api/endpoints/profile_blurb.md)"                      |
 | Rooms                     | "[rooms]                         (/api/endpoints/rooms.md)"                              |
 | Rooms Favorites           | "[rooms/favorites]               (/api/endpoints/rooms_favorites.md)"                    |
