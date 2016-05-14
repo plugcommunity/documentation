@@ -12,7 +12,7 @@ _POST_
 
 ### Parameters
 
-**slug**: The URL conform name of the room you want to join
+**slug**: The URL of the room you want to join
 
 ```json
 {
