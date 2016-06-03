@@ -53,6 +53,8 @@ sure that you're still alive. You don't have to respond to these packets at all,
 anyway. If you don't get an `h` message for a very long time, you're probably no longer connected properly to the socket
 server.
 
+*The `h` message is sent approximately 10 seconds after each message sent by the server. If a message was sent in the meantime, the timer is reset, sending the message 10 seconds after the last message.*
+
 ### Event Messages
 
 Event Messages are JSON-encoded arrays containing one or more event objects. These events can be anything from a user
