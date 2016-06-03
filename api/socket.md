@@ -119,6 +119,8 @@ you should divide by 1000 first: `Math.floor(Date.now() / 1000)`.) Theoretically
 close to the plug.dj server time using the `window._st` JavaScript variable, but it doesn't appear to affect much. For
 now, you're safe just using your local UNIX time--or even completely bogus values like your birthday.
 
+**Warning**: Make sure you send data with the correct data types (i.e, `t` as an integer) as there is no indicator suggesting that your message could not interpreted.
+
 ### "auth"
 
 The "auth" message is the first message you should send to the socket, and you should send it _immediately_ when the
