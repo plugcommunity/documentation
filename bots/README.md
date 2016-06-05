@@ -7,8 +7,8 @@ A list of links to resources for developing bots
 
 ##### Bot Help:
 
-* [Standards](/bot/standards.md)
-* [Guide](/bots/best_practices)
+* [Standards](/bots/standards.md)
+* [Best Practices](/bots/best_practices.md)
 * [Feature Specifications](/bots/features/README.md)
 
 ##### Coding Help:
