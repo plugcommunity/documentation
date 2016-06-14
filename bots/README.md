@@ -9,7 +9,7 @@ A list of links to resources for developing bots
 
 * [Standards](/bots/standards.md)
 * [Best Practices](/bots/best_practices.md)
-* [Feature Specifications](/bots/features/README.md)
+* [Feature Specifications](/bots/feature_specifications.md)
 
 ##### Coding Help:
 
@@ -32,6 +32,6 @@ For bots to make this list, they must adhere to specific [standards](/bot/standa
 practices listed in this [guide](/bots/best_practices).
 
 Please see the [third party clients](/clients/README.md) page for Python and Node.js APIs. Alternatively you can read
-the [backend API](/api/README.md) docs to create your own. 
+the [backend API](/api/README.md) docs to create your own.
 
 If you would like to have your bot or extension listed, please make an issue ticket.
