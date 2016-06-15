@@ -42,6 +42,14 @@ User isn't in the room
 }
 ```
 
+Waitlist is full
+```json
+{
+    "data": [],
+    "status": "boothFull",
+}
+```
+
 id is missing
 ```json
 {
