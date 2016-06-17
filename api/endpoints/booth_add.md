@@ -50,6 +50,15 @@ Waitlist is full
 }
 ```
 
+
+User doesn't have a playlist
+```json
+{
+    "data": [],
+    "status": "noValidPlaylist",
+}
+```
+
 id is missing
 ```json
 {
