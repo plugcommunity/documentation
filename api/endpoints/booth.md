@@ -22,6 +22,16 @@ Insufficient permissions
 }
 ```
 
+User doesn't have an active/valid playlist
+```json
+{
+    "data": [
+        "This request was understood but is forbidden."
+    ],
+    "status": "noValidPlaylist",
+}
+```
+
 Not in a room
 ```json
 {
