@@ -15,8 +15,8 @@ The room slug will always be "dashboard", because this event is not room-specifi
 [{
     "a": "earn",        // Event name
     "p": {
-        "xp": 0,	    // new xp amount
-        "pp": 0,	    // new pp amount
+        "xp": 0,        // new xp amount
+        "pp": 0,        // new pp amount
         "level": -1     // current level (or new level, on level-up)
     },
     "s": "dashboard"    // Room slug
