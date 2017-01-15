@@ -17,7 +17,7 @@ API.on(API.USER_SKIP, function(data){
 
 ### Packet Example
 
-(Please add)
+`"username"`
 
 # Backend
 

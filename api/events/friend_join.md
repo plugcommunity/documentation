@@ -17,7 +17,19 @@ API.on(API.FRIEND_JOIN, function(data) {
 
 ### Packet Example
 
-(Please add)
+```js
+{
+    id: 0,
+    username: '',
+    avatarID: '',
+    language: 'en',
+    joined: undefined,
+    level: 1,
+    role: 0,
+    gRole: 0,
+    badge: undefined
+}
+```
 
 # Backend
 
@@ -28,7 +40,7 @@ Event name: "friendJoin"
 
 {
     'a':'chat',                                     // Event name
-    'p':{                                   
+    'p':{
         'avatarID': 'base01',                       // Their AvatarID (e.g.: 'base01')
         'badge': 'base01b',                         // Their badge (e.g.: '80sb01')
         'gRole': 0,                                 // Their service wide role (0 = None; 3 = Brand Ambassador (BA); 5 = Admin)

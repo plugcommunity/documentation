@@ -15,4 +15,29 @@ API.on(API.HISTORY_UPDATE, function(data){
 
 ### Packet Example
 
-(Please add)
+```js
+[
+	0: {
+		media: {
+			author: '',     // Author of the track
+			cid: 'x',       // Internal ID
+			duration: 0,    // Song duration (seconds)
+			format: 1,      // 1: Youtube 2: Soundcloud
+			id: '0',        // Please add description (will always be '0')
+			image: '',      // Image URL of the track cover for soundcloud, video thumbnail for youtube
+			title: ''       // Title of the track
+		},
+		score: {
+			grabs: 0,
+			listeners: 0,
+			negative: 0,
+			positive: 0
+		},
+		user: {
+			id: 0,
+			username: ''
+		}
+	},
+	// ...
+]
+```

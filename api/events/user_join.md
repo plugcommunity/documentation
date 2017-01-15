@@ -17,7 +17,19 @@ API.on(API.USER_JOIN, function(data){
 
 ### Packet Example
 
-(Please add)
+```js
+{
+    id: 0,
+    username: '',
+    avatarID: '',
+    language: 'en',
+    joined: undefined,
+    level: 1,
+    role: 0,
+    gRole: 0,
+    badge: undefined
+}
+```
 
 # Backend
 
@@ -30,7 +42,7 @@ Event Name: "userJoin"
     'a': 'userJoin',                // Event name
     'p': {                          // User object
         'avatarID': 'xxx',          // AvatarID (e.g.: 'base01')
-        'username': 'xxx',          // Name of the user  
+        'username': 'xxx',          // Name of the user
         'language': 'xx',           // ISO 639-1 representation of the language used by the user
         'guest': false,             // Is the user a guest? (this is not possible as of now)
         'level': 1,                 // Level of the user
@@ -63,6 +75,6 @@ Event Name: "userJoin"
         'slug': 'sooyou',
         'sub': 0
     },
-    's': 'loves-kpop'        
+    's': 'loves-kpop'
 }
 ```
