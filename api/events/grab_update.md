@@ -33,7 +33,7 @@ API.on(API.GRAB_UPDATE, function(data){
 }
 ```
 
-Returns `Object.user` containing the user object of the person who 
+Returns `Object.user` containing the user object of the person who grabbed
 
 # Backend
 
@@ -49,6 +49,7 @@ Event Name: "grab"
 }
 ```
 ### Real life example
+
 ```js
 {
     'a': 'grab',

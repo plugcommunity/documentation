@@ -9,6 +9,9 @@ command
 | /me       | Sends an emote message in italics                     |
 | /clear    | Clears the chat history client side                   |
 | /sos      | Sends an SOS message to the plug.dj Brand Ambassadors |
+| /cap      | Sets the avatar cap                                   |
+| /ignore   | Ignores an user's chat message                        |
+| /unignore | Unignores a previously ignored user                   |
 | /help     | Provides the list of default commands                 |
 
 
