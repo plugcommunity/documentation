@@ -22,10 +22,10 @@ Event passed when an username is forcefully changed by plug.
 [{
     "a": "nameChangedRoom",
     "p": {
-      "i": 25527728,
-      "o": "Kill Yourself F****t",   // previous username
-      "n": "Love Yourself Greatly"    // new username
+      "i": 3581458,
+      "o": "DJMalx | RIP Plug.dj",   // previous username
+      "n": "DJMalx"    // new username
     },
-    "s": "bass-line"
+    "s": "tastycat"
 }]
 ```
