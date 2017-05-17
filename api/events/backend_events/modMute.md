@@ -18,8 +18,9 @@ Event passed when a moderator mutes a user.
 [{
     "a": "modMute",     // Event name
     "p": {
+        "mi": -1,       // ID of the moderator
         "m": "xxxxxx",	// Name of the moderator
-        "i": -1,        // ID of the user
+        "i": -1,        // ID of the user that got muted
         "t": "xxxxxx",  // Name of the user that got muted
         "r": -1,        // Reason of the mute
         "d": "x",       // Mute duration
@@ -32,7 +33,8 @@ Event passed when a moderator mutes a user.
 [{
     "a": "modMute",
     "p": {
-        "m": "SooYou",
+        "mi": 6238917,
+        "m": "ReAnna",
         "i": 3865820,
         "t": "kool_panda",
         "r": 31,
