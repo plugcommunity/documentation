@@ -1,10 +1,8 @@
 ### Introduction
 
-The plug API is seperated into two systems, 
-[WebSocket](https://github.com/plugcommunity/documentation/tree/master/api/events) and [REST](#).
-While the WebSocket part is used to communicate at real time (such as chat, booth advancement etc.), the REST API is 
-used to do everything that does not require a real time connection. While this certainly induces a bit of latency
-for each action, it is something that can be easily handled with.
+The plug API is separated into two systems, [WebSocket](https://github.com/plugcommunity/documentation/tree/master/api/events) and [REST](#).
+
+While the WebSocket part is used to communicate at real time (such as chat, booth advancement etc.), the REST API is used to do everything that does not require a real-time connection. While this certainly induces a bit of latency for each action, it is something that can be easily handled with.
 
 
 ### Tips and tricks
@@ -76,6 +74,7 @@ Some methods however, are white listed such as chat deleting, this is in order t
 | Users Me History          | "[users/me/history](/api/endpoints/users_me_history.md)"                    |
 | Users Me Transactions     | "[users/me/transactions](/api/endpoints/users_me_transactions.md)"          |
 | Users Settings            | "[users/settings](/api/endpoints/users_settings.md)"                        |
+| Users Signup            | "[users/signup](/api/endpoints/users_signup.md)"                        |
 | Users Validate            | "[users/validate](/api/endpoints/users_validate.md)"                        |
 | Votes                     | "[votes](/api/endpoints/votes.md)"                                          |
 
