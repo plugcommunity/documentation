@@ -1,10 +1,10 @@
-# auth/signup Endpoint
+# users/signup Endpoint
 
-The auth/signup endpoint creates a user account on plug.dj.
+The users/signup endpoint creates a user account on plug.dj.
 
 ### Endpoint
 
-**auth/signup**
+**users/signup**
 
 ### Method
 
