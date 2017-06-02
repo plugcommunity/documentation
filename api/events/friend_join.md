@@ -17,7 +17,19 @@ API.on(API.FRIEND_JOIN, function(data) {
 
 ### Packet Example
 
-(Please add)
+```js
+{
+    id: 0,
+    username: '',
+    avatarID: '',
+    language: 'en',
+    joined: undefined,
+    level: 1,
+    role: 0,
+    gRole: 0,
+    badge: undefined
+}
+```
 
 # Backend
 
