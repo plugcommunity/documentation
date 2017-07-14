@@ -31,6 +31,7 @@ Some methods however, are white listed such as chat deleting, this is in order t
 | Booth Remove              | "[booth/remove/:id](/api/endpoints/booth_remove.md)"                        |
 | Booth Skip                | "[booth/skip](/api/endpoints/booth_skip.md)"                                |
 | Booth Skip Me             | "[booth/skip/me](/api/endpoints/booth_skip_me.md)"                          |
+| Booth Waitlist Bans       | "[booth/waitlistban](/api/endpoints/booth_waitlistban.md)"                  |
 | Chat Delete               | "[chat/:cid](/api/endpoints/chat_cid.md)"                                   |
 | Friends                   | "[friends](/api/endpoints/friends.md)"                                      |
 | Friends Ignore            | "[friends/ignore](/api/endpoints/friends_ignore.md)"                        |
