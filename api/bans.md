@@ -30,6 +30,15 @@ Banning users is to remove them forcefully from the room.
 
 You can view the frontend constants [here](/api/constants.md)
 
+**WaitlistBanDuration**: The duration member can have the following values:
+
+**f**: User is banned permanently
+
+**l**: User is banned for a day
+
+**m**: User is banned for an hour
+
+**s**: User is banned for 15 minutes
 
 ### Known Bugs
 
