@@ -33,6 +33,7 @@ possible.
 | Mod Skip                  | "[modSkip](/api/events/mod_skip.md#backend)"                                     |
 | Mod Staff                 | "[modStaff](/api/events/backend_events/modStaff.md)"                             |
 | Name Changed              | "[nameChanged](/api/events/backend_events/nameChanged.md)"                       |
+| Name Changed Room         | "[nameChangedRoom](/api/events/backend_events/nameChangedRoom.md)"               |
 | Notify                    | "[notify](/api/events/backend_events/notify.md)"                                 |
 | Playlist Cycle            | "[playlistCycle](/api/events/backend_events/playlistCycle.md)"                   |
 | Plug Maintenance          | "[plugMaintenance](/api/events/backend_events/plugMaintenance.md)"               |
