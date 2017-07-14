@@ -26,7 +26,7 @@ with a requestError status. The required permission for fetching is Manager (rol
 
 **m**: User is banned for an hour
 
-**l**: User is banned for 15 minutes
+**s**: User is banned for 15 minutes
 
 More ban information [here](/api/bans.md#variables).
 
