@@ -1,6 +1,6 @@
-# waitlistbans Endpoint
+# waitlistban Endpoint
 
-The waitlistbans endpoint retrieves a list of active waitlist bans, adds a waitlistban or deletes a waitlistban depending on HTTP method.
+The waitlistban endpoint retrieves a list of active waitlist bans, adds a waitlistban or deletes a waitlistban depending on HTTP method.
 
 **Note**: You need to have sufficient permissions in the room to access this resource, otherwise you'll just be greeted
 with a requestError status. The required permission for fetching is Manager (role 3), required permission for banning is Bouncer (role 2) unless you are permanently banning then you need Manager (role 3), required permission for deleting is Manager (role 3)
@@ -34,9 +34,9 @@ More ban information [here](/api/bans.md#variables).
 
 ### Endpoint
 
-**bans**
+**booth/waitlistban**
 
-**booth/waitlistbans/:userID**
+**booth/waitlistban/:userID**
 
 ### Method
 
