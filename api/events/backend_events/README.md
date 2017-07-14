@@ -27,6 +27,7 @@ possible.
 | Level Up                  | "[levelUp](/api/events/backend_events/levelUp.md)"                               |
 | Mod Add DJ                | "[modAddDJ](/api/events/backend_events/modAddDJ.md)"                             |
 | Mod Ban                   | "[modBan](/api/events/backend_events/modBan.md)"                                 |
+| Mod WaitlistBan           | "[modwaitlistBan](/api/events/backend_events/modWaitlistBan.md)"                 |
 | Mod Move DJ               | "[modMoveDJ](/api/events/backend_events/modMoveDJ.md)"                           |
 | Mod Mute                  | "[modMute](/api/events/backend_events/modMute.md)"                               |
 | Mod Remove DJ             | "[modRemoveDJ](/api/events/backend_events/modRemoveDJ.md)"                       |
