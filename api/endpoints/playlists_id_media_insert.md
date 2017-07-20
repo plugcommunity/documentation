@@ -6,7 +6,7 @@ The playlists/:id/media/insert endpoint lets you insert media objects into a pla
 
 **playlists/:id/media/insert**
 
-### aMethod
+### Method
 
 _POST_
 
