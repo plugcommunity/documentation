@@ -2,7 +2,7 @@
 
 Event passed when a moderator waitlist bans a user.
 
-**Note**: the waitlist ban duration offers you the following three options
+**Note**: the waitlist ban duration offers you the following four options
 
 * **s**: Banned for 15 minutes
 
@@ -16,15 +16,15 @@ Event passed when a moderator waitlist bans a user.
 
 ```js
 [{
-    "a": "modWaitlistBan",      // Event name
+    "a": "modWaitlistBan", // Event name
     "p": {
-        "m": "xxxxxx",	// Name of the moderator
-        "mi": -1,       // ID of the moderator
-        "t": "xxxxxx",  // Name of the user that got banned
-        "ti": -1,  // ID of the user that got banned
-        "d": "x"        // Duration of the ban
+        "m": "xxxxxx",	   // Name of the moderator
+        "mi": -1,          // ID of the moderator
+        "t": "xxxxxx",     // Name of the user that got banned
+        "ti": -1,          // ID of the user that got banned
+        "d": "x"           // Duration of the ban
     },
-    "s": "xxxx"         // Room name
+    "s": "xxxx"            // Room name
 }]
 ```
 ### Real life example
