@@ -9,7 +9,7 @@ Event passed when a moderator adds a user to the wait list.
 [{
     "a": "modAddDJ",    // Event name
     "p": {
-        "m": "xxxxxx",	// Should the wait list cycle?
+        "m": "xxxxxx",	// Username of the moderator
         "mi": -1,       // ID of the moderator
         "t": "xxxxxx"   // Name of the user that got added
     },
