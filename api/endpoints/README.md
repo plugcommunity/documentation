@@ -28,7 +28,7 @@ Some methods however, are white listed such as chat deleting, this is in order t
 | Booth Cycle               | "[booth/cycle](/api/endpoints/booth_cycle.md)"                              |
 | Booth Lock                | "[booth/lock](/api/endpoints/booth_lock.md)"                                |
 | Booth Move                | "[booth/move](/api/endpoints/booth_move.md)"                                |
-| Booth Remove              | "[booth/remove/:id](/api/endpoints/booth_remove.md)"                        |
+| Booth Remove              | "[booth/remove/:id](/api/endpoints/booth_remove_id.md)"                     |
 | Booth Skip                | "[booth/skip](/api/endpoints/booth_skip.md)"                                |
 | Booth Skip Me             | "[booth/skip/me](/api/endpoints/booth_skip_me.md)"                          |
 | Booth Waitlist Ban        | "[booth/waitlistban](/api/endpoints/booth_waitlistban.md)"                  |
