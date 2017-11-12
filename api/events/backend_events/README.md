@@ -1,7 +1,7 @@
 ### Introduction
 
 The websocket introduces a 2 way communication with the service in real time.
-This is especially needed for messaging and other events that should be executed with as little time difference as 
+This is especially needed for messaging and other events that should be executed with as little time difference as
 possible.
 
 ### List of emitted events
@@ -15,14 +15,14 @@ possible.
 | ChatDelete                | "[chatDelete](/api/events/backend_events/chatDelete.md)"                         |
 | DJ List Cycle             | "[djListCycle](/api/events/backend_events/djListCycle.md)"                       |
 | DJ List Locked            | "[djListLocked](/api/events/backend_events/djListLocked.md)"                     |
-| DJ List Update            | "[djListUpdate](/api/events/djListUpdate.md#backend)"                            |
+| DJ List Update            | "[djListUpdate](/api/events/wait_list_update.md#backend)"                        |
 | Earn                      | "[earn](/api/events/backend_events/earn.md)"                                     |
 | Flood API                 | "[floodAPI](/api/events/backend_events/floodAPI.md)"                             |
 | Flood Chat                | "[floodChat](/api/events/backend_events/floodChat.md)"                           |
 | Friend Accept             | "[friendAccept](/api/events/backend_events/friendAccept.md)"                     |
 | Friend Request            | "[friendRequest](/api/events/backend_events/friendRequest.md)"                   |
 | Gifted                    | "[gifted](/api/events/backend_events/gifted.md)"                                 |
-| Grab                      | "[grab](/api/events/grab.md#backend)"                                            |
+| Grab                      | "[grab](/api/events/grab_update.md#backend)"                                     |
 | Kill Session              | "[killSession](/api/events/backend_events/killSession.md)"                       |
 | Level Up                  | "[levelUp](/api/events/backend_events/levelUp.md)"                               |
 | Mod Add DJ                | "[modAddDJ](/api/events/backend_events/modAddDJ.md)"                             |
@@ -49,6 +49,6 @@ possible.
 | User Join                 | "[userJoin](/api/events/user_join.md#backend)"                                   |
 | User Leave                | "[userLeave](/api/events/user_leave.md#backend)"                                 |
 | User Update               | "[userUpdate](/api/events/backend_events/userUpdate.md)"                         |
-| Vote                      | "[vote](/api/events/vote.md#backend)"                                            |
+| Vote                      | "[vote](/api/events/vote_update.md#backend)"                                     |
 
 *Ordered by Event Name^
