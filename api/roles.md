@@ -8,17 +8,17 @@ You can see the staff roles API constants [here](/api/constants.md), in the staf
 
 * **0**: None, just a regular user
 
-* **1**: ResidentDJ, can lock the waitlist
+* **1000**: ResidentDJ, can lock the waitlist
 
-* **2**: Bouncer, can delete chat messages, remove DJs, force skip and ban people
+* **2000**: Bouncer, can delete chat messages, remove DJs, force skip and ban people
 
-* **3**: Manager, can everything except removing co hosts and managers as well as editing the room meta
+* **3000**: Manager, can everything except removing co hosts and managers as well as editing the room meta
 
-* **4**: Co-Host, can everything except removing co hosts
+* **4000**: Co-Host, can everything except removing co hosts
 
-* **5**: Host, owner status 
+* **5000**: Host, owner status 
 
-The gRoles are reserved for Admins and Brand Ambassadors.
+The gRoles are reserved for Admins,Brand Ambassadors, Site Moderators, Plot members , and  Promoters.
 
 |                                   | User  | Resident DJ   | Bouncer   | Manager   | Co-Host   | Host  |
 | --------------------------------- | ----  | -----------   | -------   | -------   | -------   | ----  |
@@ -45,3 +45,7 @@ Admins have all permissions, as well as being un-ban-able, able to delete rooms,
 BAs inherit from managers, and are global managers. They are able to do anything a manager can do, but in any room. They
 are also un-ban-able by anyone except Admins, although there have been exploits around this.
 
+Site Moderators inherit from bouncers, and are global bouncers.They are able to do anything a bouncer can do, but in any room. They
+are also un-ban-able by anyone except Admins & BA's, although there have been exploits around this.
+
+Plot and Promoters do not inherit any permissions. Although they have a color and a title in every room.
