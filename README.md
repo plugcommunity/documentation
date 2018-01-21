@@ -7,8 +7,7 @@
 
 ### The Community
 
-We communicate using a [slack team](https://plugdj-extdevs.slack.com), if you would like to be added, please email
-therealhenchman@gmail.com
+You can join the [plug.dj Discord group here](https://discord.gg/NXtwHa).
 
 The aim of this is to help developers in a clean way, with how the API works, so that minimal harm can come to the
 service of plug.dj. It is here to explain how things work so that developers need not test and consume resources of the
