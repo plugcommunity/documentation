@@ -8,17 +8,17 @@ client, you can send authentication messages and chat messages.
 
 ## Connecting To The Socket Server
 
-The socket server is a WebSocket server that lives at `wss://godj.plug.dj:443/socket`. The socket server is separated
+The socket server is a WebSocket server that lives at `wss://ws-prod.plug.dj:443/socket`. The socket server is separated
 from plug.dj's other servers, so you have to do a little bit of work to authenticate yourself to it.
 
-(Domain trivia: `godj` stands for Go DJ, because the socket server is written in Go!)
+The plug.dj socket is written in Go!
 
 These examples will assume JavaScript and Node.js, but the principles apply to every language/platform/library.
 
  1. First, you need to connect to the server. This is the easiest part&em;just use your favourite WebSocket library:
     ```js
     var WebSocket = require('ws');
-    var socket = new WebSocket('wss://godj.plug.dj:443/socket', {
+    var socket = new WebSocket('wss://ws-prod.plug.dj:443/socket', {
         origin: 'https://plug.dj'
     });
     ```
