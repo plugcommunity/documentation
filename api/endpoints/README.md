@@ -33,6 +33,7 @@ Some methods however, are white listed such as chat deleting, this is in order t
 | Booth Skip Me             | "[booth/skip/me](/api/endpoints/booth_skip_me.md)"                          |
 | Booth Waitlist Ban        | "[booth/waitlistban](/api/endpoints/booth_waitlistban.md)"                  |
 | Chat Delete               | "[chat/:cid](/api/endpoints/chat_cid.md)"                                   |
+| Chat History              | "[chat/history](/api/endpoints/chat_history.md)"                            |
 | Friends                   | "[friends](/api/endpoints/friends.md)"                                      |
 | Friends Ignore            | "[friends/ignore](/api/endpoints/friends_ignore.md)"                        |
 | Friends Invites           | "[friends/invites](/api/endpoints/friends_invites.md)"                      |
@@ -59,6 +60,7 @@ Some methods however, are white listed such as chat deleting, this is in order t
 | Rooms SOS                 | "[rooms/sos](/api/endpoints/rooms_sos.md)"                                  |
 | Rooms State               | "[rooms/state](/api/endpoints/rooms_state.md)"                              |
 | Rooms Update              | "[rooms/update](/api/endpoints/rooms_update.md)"                            |
+| Rooms Users               | "[rooms/users](/api/endpoints/rooms_users.md)"                              |
 | Rooms Validate            | "[rooms/validate](/api/endpoints/rooms_validate.md)"                        |
 | Staff                     | "[staff](/api/endpoints/staff.md)"                                          |
 | Staff Update              | "[staff/update](/api/endpoints/staff_update.md)"                            |
@@ -75,7 +77,7 @@ Some methods however, are white listed such as chat deleting, this is in order t
 | Users Me History          | "[users/me/history](/api/endpoints/users_me_history.md)"                    |
 | Users Me Transactions     | "[users/me/transactions](/api/endpoints/users_me_transactions.md)"          |
 | Users Settings            | "[users/settings](/api/endpoints/users_settings.md)"                        |
-| Users Signup            | "[users/signup](/api/endpoints/users_signup.md)"                        |
+| Users Signup              | "[users/signup](/api/endpoints/users_signup.md)"                            |
 | Users Validate            | "[users/validate](/api/endpoints/users_validate.md)"                        |
 | Votes                     | "[votes](/api/endpoints/votes.md)"                                          |
 
